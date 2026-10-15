@@ -1,0 +1,4 @@
+pair,formal_category,formal_urgency,formal_sentiment,formal_team,informal_category,informal_urgency,informal_sentiment,informal_team,same_category,same_urgency,same_team
+B1,WATER_LEAK,HIGH,NEGATIVE,Facilities Management,WATER_LEAK,HIGH,NEGATIVE,Facilities Management,True,True,True
+B2,ACCESSIBILITY,HIGH,NEUTRAL,Facilities Management + Accessibility & Inclusion,ACCESSIBILITY,HIGH,NEGATIVE,Facilities Management + Accessibility & Inclusion,True,True,True
+B3,ENERGY_WASTE,LOW,NEUTRAL,Facilities Management,ENERGY_WASTE,MEDIUM,NEUTRAL,Facilities Management,True,False,True

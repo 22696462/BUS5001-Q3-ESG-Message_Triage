@@ -1,0 +1,6 @@
+prompt_version,n,category_acc_%,urgency_acc_%,under_triaged,over_triaged
+original,19,0.0,68.4,4,2
+v1,19,84.2,63.2,5,2
+v2,19,100.0,63.2,6,1
+v3,19,100.0,78.9,3,1
+v4,19,100.0,73.7,3,2

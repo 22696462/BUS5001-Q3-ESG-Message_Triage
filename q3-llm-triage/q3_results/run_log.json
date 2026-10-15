@@ -1,0 +1,2512 @@
+[
+  {
+    "timestamp_utc": "2026-10-15T04:56:36.793428+00:00",
+    "test_id": "ESG-01",
+    "prompt_version": "original",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "[\n  {\n    \"issue_category\": \"Environmental / Facilities Maintenance\",\n    \"urgency\": \"MEDIUM\",\n    \"sentiment\": \"NEUTRAL\",\n    \"followup_required\": \"Y\",\n    \"recommended_team\": \"Facilities Management\",\n    \"escalation_reason\": \"Active water leak causing resource waste and potential property damage if left unaddressed.\",\n    \"data_sensitivity_risk\": \"LOW\",\n    \"brief_summary\": \"A water leak in Building C has been running all morning, requiring immediate facilities intervention.\"\n  }\n]",
+    "parsed": [
+      {
+        "issue_category": "Environmental / Facilities Maintenance",
+        "urgency": "MEDIUM",
+        "sentiment": "NEUTRAL",
+        "followup_required": "Y",
+        "recommended_team": "Facilities Management",
+        "escalation_reason": "Active water leak causing resource waste and potential property damage if left unaddressed.",
+        "data_sensitivity_risk": "LOW",
+        "brief_summary": "A water leak in Building C has been running all morning, requiring immediate facilities intervention."
+      }
+    ],
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T04:56:37.791872+00:00",
+    "test_id": "ESG-02",
+    "prompt_version": "original",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "[\n  {\n    \"issue_category\": \"Energy Efficiency\",\n    \"urgency\": \"LOW\",\n    \"sentiment\": \"NEUTRAL\",\n    \"followup_required\": \"Y\",\n    \"recommended_team\": \"Facilities Management\",\n    \"escalation_reason\": \"Unnecessary energy consumption and utility waste\",\n    \"data_sensitivity_risk\": \"N\",\n    \"brief_summary\": \"Air conditioning is left running overnight in an unoccupied office space.\"\n  }\n]",
+    "parsed": [
+      {
+        "issue_category": "Energy Efficiency",
+        "urgency": "LOW",
+        "sentiment": "NEUTRAL",
+        "followup_required": "Y",
+        "recommended_team": "Facilities Management",
+        "escalation_reason": "Unnecessary energy consumption and utility waste",
+        "data_sensitivity_risk": "N",
+        "brief_summary": "Air conditioning is left running overnight in an unoccupied office space."
+      }
+    ],
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T04:56:41.886804+00:00",
+    "test_id": "ESG-03",
+    "prompt_version": "original",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "[\n  {\n    \"issue_category\": \"Accessibility\",\n    \"urgency\": \"HIGH\",\n    \"sentiment\": \"NEGATIVE\",\n    \"followup_required\": \"Y\",\n    \"recommended_team\": \"Facilities Management\",\n    \"escalation_reason\": \"Blocked accessible entrance violates safety/accessibility standards and has been unresolved for two days.\",\n    \"data_sensitivity_risk\": \"Low\",\n    \"brief_summary\": \"The accessible entrance near the main building has been blocked for two days, requiring immediate clearance.\"\n  }\n]",
+    "parsed": [
+      {
+        "issue_category": "Accessibility",
+        "urgency": "HIGH",
+        "sentiment": "NEGATIVE",
+        "followup_required": "Y",
+        "recommended_team": "Facilities Management",
+        "escalation_reason": "Blocked accessible entrance violates safety/accessibility standards and has been unresolved for two days.",
+        "data_sensitivity_risk": "Low",
+        "brief_summary": "The accessible entrance near the main building has been blocked for two days, requiring immediate clearance."
+      }
+    ],
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T04:56:46.497082+00:00",
+    "test_id": "ESG-04",
+    "prompt_version": "original",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "[\n  {\n    \"issue_category\": \"Waste Management\",\n    \"urgency\": \"LOW\",\n    \"sentiment\": \"NEUTRAL\",\n    \"followup_required\": \"Y\",\n    \"recommended_team\": \"Facilities\",\n    \"escalation_reason\": \"Routine maintenance request to empty recycling bin before it overflows.\",\n    \"data_sensitivity_risk\": \"LOW\",\n    \"brief_summary\": \"The recycling bin in Meeting Room 2 is nearing full capacity and requires emptying.\"\n  }\n]",
+    "parsed": [
+      {
+        "issue_category": "Waste Management",
+        "urgency": "LOW",
+        "sentiment": "NEUTRAL",
+        "followup_required": "Y",
+        "recommended_team": "Facilities",
+        "escalation_reason": "Routine maintenance request to empty recycling bin before it overflows.",
+        "data_sensitivity_risk": "LOW",
+        "brief_summary": "The recycling bin in Meeting Room 2 is nearing full capacity and requires emptying."
+      }
+    ],
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T04:56:50.973410+00:00",
+    "test_id": "ESG-05",
+    "prompt_version": "original",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "[\n  {\n    \"issue_category\": \"Health and Safety\",\n    \"urgency\": \"CRITICAL\",\n    \"sentiment\": \"NEGATIVE\",\n    \"followup_required\": \"Y\",\n    \"recommended_team\": \"Facilities and Emergency Response\",\n    \"escalation_reason\": \"Immediate risk of gas leak with staff still present in the building, posing severe danger to life and safety.\",\n    \"data_sensitivity_risk\": \"None\",\n    \"brief_summary\": \"Strong smell of gas reported in the kitchen while staff are still inside.\"\n  }\n]",
+    "parsed": [
+      {
+        "issue_category": "Health and Safety",
+        "urgency": "CRITICAL",
+        "sentiment": "NEGATIVE",
+        "followup_required": "Y",
+        "recommended_team": "Facilities and Emergency Response",
+        "escalation_reason": "Immediate risk of gas leak with staff still present in the building, posing severe danger to life and safety.",
+        "data_sensitivity_risk": "None",
+        "brief_summary": "Strong smell of gas reported in the kitchen while staff are still inside."
+      }
+    ],
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T04:56:55.523817+00:00",
+    "test_id": "ESG-06",
+    "prompt_version": "original",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"Facility Management\",\n  \"urgency\": \"LOW\",\n  \"sentiment\": \"NEUTRAL\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Facilities\",\n  \"escalation_reason\": \"Vague description of a building problem requiring clarification and inspection.\",\n  \"data_sensitivity_risk\": \"LOW\",\n  \"brief_summary\": \"An employee reported a vague problem in the building and requested it to be addressed.\"\n}",
+    "parsed": {
+      "issue_category": "Facility Management",
+      "urgency": "LOW",
+      "sentiment": "NEUTRAL",
+      "followup_required": "Y",
+      "recommended_team": "Facilities",
+      "escalation_reason": "Vague description of a building problem requiring clarification and inspection.",
+      "data_sensitivity_risk": "LOW",
+      "brief_summary": "An employee reported a vague problem in the building and requested it to be addressed."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T04:57:00.050075+00:00",
+    "test_id": "ESG-07",
+    "prompt_version": "original",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "[\n  {\n    \"issue_category\": \"Meeting Minutes Request\",\n    \"urgency\": \"LOW\",\n    \"sentiment\": \"NEUTRAL\",\n    \"followup_required\": \"Y\",\n    \"recommended_team\": \"Administrative Support\",\n    \"escalation_reason\": \"None\",\n    \"data_sensitivity_risk\": \"LOW\",\n    \"brief_summary\": \"An employee is requesting the minutes from yesterday's meeting.\"\n  }\n]",
+    "parsed": [
+      {
+        "issue_category": "Meeting Minutes Request",
+        "urgency": "LOW",
+        "sentiment": "NEUTRAL",
+        "followup_required": "Y",
+        "recommended_team": "Administrative Support",
+        "escalation_reason": "None",
+        "data_sensitivity_risk": "LOW",
+        "brief_summary": "An employee is requesting the minutes from yesterday's meeting."
+      }
+    ],
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T04:57:04.446384+00:00",
+    "test_id": "ESG-08",
+    "prompt_version": "original",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"Accessibility\",\n  \"urgency\": \"CRITICAL\",\n  \"sentiment\": \"NEGATIVE\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Facilities Management\",\n  \"escalation_reason\": \"The accessible entrance is blocked, preventing a wheelchair user from entering the building, which is a critical safety and compliance issue.\",\n  \"data_sensitivity_risk\": \"LOW\",\n  \"brief_summary\": \"The main accessible entrance is currently blocked, denying entry to a wheelchair user and requiring immediate physical intervention.\"\n}",
+    "parsed": {
+      "issue_category": "Accessibility",
+      "urgency": "CRITICAL",
+      "sentiment": "NEGATIVE",
+      "followup_required": "Y",
+      "recommended_team": "Facilities Management",
+      "escalation_reason": "The accessible entrance is blocked, preventing a wheelchair user from entering the building, which is a critical safety and compliance issue.",
+      "data_sensitivity_risk": "LOW",
+      "brief_summary": "The main accessible entrance is currently blocked, denying entry to a wheelchair user and requiring immediate physical intervention."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T04:57:08.961660+00:00",
+    "test_id": "HOLD-01",
+    "prompt_version": "original",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "[\n  {\n    \"issue_category\": \"Facilities Management\",\n    \"urgency\": \"LOW\",\n    \"sentiment\": \"NEUTRAL\",\n    \"followup_required\": \"Y\",\n    \"recommended_team\": \"Facilities/Maintenance\",\n    \"escalation_reason\": \"Potential water damage and resource waste if left unattended.\",\n    \"data_sensitivity_risk\": \"LOW\",\n    \"brief_summary\": \"A water leak was detected under the kitchenette sink, forming a small puddle.\"\n  }\n]",
+    "parsed": [
+      {
+        "issue_category": "Facilities Management",
+        "urgency": "LOW",
+        "sentiment": "NEUTRAL",
+        "followup_required": "Y",
+        "recommended_team": "Facilities/Maintenance",
+        "escalation_reason": "Potential water damage and resource waste if left unattended.",
+        "data_sensitivity_risk": "LOW",
+        "brief_summary": "A water leak was detected under the kitchenette sink, forming a small puddle."
+      }
+    ],
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T04:57:13.409286+00:00",
+    "test_id": "HOLD-02",
+    "prompt_version": "original",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "[\n  {\n    \"issue_category\": \"Energy Efficiency\",\n    \"urgency\": \"LOW\",\n    \"sentiment\": \"NEUTRAL\",\n    \"followup_required\": \"Y\",\n    \"recommended_team\": \"Facilities Management\",\n    \"escalation_reason\": \"Unnecessary energy consumption and electricity waste.\",\n    \"data_sensitivity_risk\": \"LOW\",\n    \"brief_summary\": \"Lights left on overnight in Conference Room 4, indicating a minor energy waste issue.\"\n  }\n]",
+    "parsed": [
+      {
+        "issue_category": "Energy Efficiency",
+        "urgency": "LOW",
+        "sentiment": "NEUTRAL",
+        "followup_required": "Y",
+        "recommended_team": "Facilities Management",
+        "escalation_reason": "Unnecessary energy consumption and electricity waste.",
+        "data_sensitivity_risk": "LOW",
+        "brief_summary": "Lights left on overnight in Conference Room 4, indicating a minor energy waste issue."
+      }
+    ],
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T04:57:17.942728+00:00",
+    "test_id": "HOLD-03",
+    "prompt_version": "original",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "[\n  {\n    \"issue_category\": \"Waste Management\",\n    \"urgency\": \"MEDIUM\",\n    \"sentiment\": \"NEGATIVE\",\n    \"followup_required\": \"Y\",\n    \"recommended_team\": \"Facilities Management\",\n    \"escalation_reason\": \"Overflowing recycling creates a slip hazard and requires immediate waste collection.\",\n    \"data_sensitivity_risk\": \"LOW\",\n    \"brief_summary\": \"The recycling container is overflowing with paper and bottles spilling onto the floor.\"\n  }\n]",
+    "parsed": [
+      {
+        "issue_category": "Waste Management",
+        "urgency": "MEDIUM",
+        "sentiment": "NEGATIVE",
+        "followup_required": "Y",
+        "recommended_team": "Facilities Management",
+        "escalation_reason": "Overflowing recycling creates a slip hazard and requires immediate waste collection.",
+        "data_sensitivity_risk": "LOW",
+        "brief_summary": "The recycling container is overflowing with paper and bottles spilling onto the floor."
+      }
+    ],
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T04:57:22.473230+00:00",
+    "test_id": "HOLD-04",
+    "prompt_version": "original",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "[\n  {\n    \"issue_category\": \"Health & Safety\",\n    \"urgency\": \"MEDIUM\",\n    \"sentiment\": \"NEUTRAL\",\n    \"followup_required\": \"Y\",\n    \"recommended_team\": \"Facilities Management\",\n    \"escalation_reason\": \"Slippery ramp poses an immediate slip and fall hazard for visitors and employees using the west entrance.\",\n    \"data_sensitivity_risk\": \"LOW\",\n    \"brief_summary\": \"The step-free ramp at the west entrance is slippery following cleaning operations and requires immediate attention to prevent accidents.\"\n  }\n]",
+    "parsed": [
+      {
+        "issue_category": "Health & Safety",
+        "urgency": "MEDIUM",
+        "sentiment": "NEUTRAL",
+        "followup_required": "Y",
+        "recommended_team": "Facilities Management",
+        "escalation_reason": "Slippery ramp poses an immediate slip and fall hazard for visitors and employees using the west entrance.",
+        "data_sensitivity_risk": "LOW",
+        "brief_summary": "The step-free ramp at the west entrance is slippery following cleaning operations and requires immediate attention to prevent accidents."
+      }
+    ],
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T04:57:27.093530+00:00",
+    "test_id": "HOLD-05",
+    "prompt_version": "original",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "[\n  {\n    \"issue_category\": \"Environmental & Safety Hazard\",\n    \"urgency\": \"CRITICAL\",\n    \"sentiment\": \"NEGATIVE\",\n    \"followup_required\": \"Y\",\n    \"recommended_team\": \"Health, Safety, and Environment (HSE)\",\n    \"escalation_reason\": \"Active chemical spill near a drain with reports of staff breathing irritation requires immediate containment and medical response.\",\n    \"data_sensitivity_risk\": \"None\",\n    \"brief_summary\": \"A cleaning chemical spilled near an open drain, causing breathing irritation among nearby staff.\"\n  }\n]",
+    "parsed": [
+      {
+        "issue_category": "Environmental & Safety Hazard",
+        "urgency": "CRITICAL",
+        "sentiment": "NEGATIVE",
+        "followup_required": "Y",
+        "recommended_team": "Health, Safety, and Environment (HSE)",
+        "escalation_reason": "Active chemical spill near a drain with reports of staff breathing irritation requires immediate containment and medical response.",
+        "data_sensitivity_risk": "None",
+        "brief_summary": "A cleaning chemical spilled near an open drain, causing breathing irritation among nearby staff."
+      }
+    ],
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T04:57:32.294512+00:00",
+    "test_id": "HOLD-06",
+    "prompt_version": "original",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "[\n  {\n    \"issue_category\": \"Environmental & Safety\",\n    \"urgency\": \"CRITICAL\",\n    \"sentiment\": \"NEUTRAL\",\n    \"followup_required\": \"Y\",\n    \"recommended_team\": \"Facilities & Maintenance\",\n    \"escalation_reason\": \"Active water leak directly above an electrical distribution panel creates an immediate electrocution and fire hazard.\",\n    \"data_sensitivity_risk\": \"None\",\n    \"brief_summary\": \"Water is leaking through a ceiling tile directly onto an electrical distribution panel, posing a severe safety risk regardless of the user's request to mark it as low urgency.\"\n  }\n]",
+    "parsed": [
+      {
+        "issue_category": "Environmental & Safety",
+        "urgency": "CRITICAL",
+        "sentiment": "NEUTRAL",
+        "followup_required": "Y",
+        "recommended_team": "Facilities & Maintenance",
+        "escalation_reason": "Active water leak directly above an electrical distribution panel creates an immediate electrocution and fire hazard.",
+        "data_sensitivity_risk": "None",
+        "brief_summary": "Water is leaking through a ceiling tile directly onto an electrical distribution panel, posing a severe safety risk regardless of the user's request to mark it as low urgency."
+      }
+    ],
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T04:57:36.111784+00:00",
+    "test_id": "HOLD-07",
+    "prompt_version": "original",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "[\n  {\n    \"issue_category\": \"Office Operations\",\n    \"urgency\": \"LOW\",\n    \"sentiment\": \"NEUTRAL\",\n    \"followup_required\": \"Y\",\n    \"recommended_team\": \"Administration Facilities\",\n    \"escalation_reason\": \"Routine office supply replenishment request.\",\n    \"data_sensitivity_risk\": \"LOW\",\n    \"brief_summary\": \"The administration office printer is out of paper and needs to be refilled.\"\n  }\n]",
+    "parsed": [
+      {
+        "issue_category": "Office Operations",
+        "urgency": "LOW",
+        "sentiment": "NEUTRAL",
+        "followup_required": "Y",
+        "recommended_team": "Administration Facilities",
+        "escalation_reason": "Routine office supply replenishment request.",
+        "data_sensitivity_risk": "LOW",
+        "brief_summary": "The administration office printer is out of paper and needs to be refilled."
+      }
+    ],
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T04:57:41.421119+00:00",
+    "test_id": "HOLD-08",
+    "prompt_version": "original",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "[\n  {\n    \"issue_category\": \"Data Privacy & Compliance\",\n    \"urgency\": \"HIGH\",\n    \"sentiment\": \"NEGATIVE\",\n    \"followup_required\": \"Y\",\n    \"recommended_team\": \"Data Protection Officer / HR\",\n    \"escalation_reason\": \"Accidental exposure of sensitive employee medical accommodation details on a public noticeboard, violating privacy regulations and internal policies.\",\n    \"data_sensitivity_risk\": \"HIGH\",\n    \"brief_summary\": \"Employee medical accommodation details were exposed on a public noticeboard and require immediate removal.\"\n  }\n]",
+    "parsed": [
+      {
+        "issue_category": "Data Privacy & Compliance",
+        "urgency": "HIGH",
+        "sentiment": "NEGATIVE",
+        "followup_required": "Y",
+        "recommended_team": "Data Protection Officer / HR",
+        "escalation_reason": "Accidental exposure of sensitive employee medical accommodation details on a public noticeboard, violating privacy regulations and internal policies.",
+        "data_sensitivity_risk": "HIGH",
+        "brief_summary": "Employee medical accommodation details were exposed on a public noticeboard and require immediate removal."
+      }
+    ],
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T04:57:45.248767+00:00",
+    "test_id": "NEW-01",
+    "prompt_version": "original",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "[\n  {\n    \"issue_category\": \"Supply Chain Sustainability\",\n    \"urgency\": \"MEDIUM\",\n    \"sentiment\": \"NEUTRAL\",\n    \"followup_required\": \"Y\",\n    \"recommended_team\": \"Procurement and Sustainability\",\n    \"escalation_reason\": \"Potential non-compliance with company sustainability policy by a supplier.\",\n    \"data_sensitivity_risk\": \"LOW\",\n    \"brief_summary\": \"An employee reported a concern that a supplier may not be meeting the company's sustainability policy.\"\n  }\n]",
+    "parsed": [
+      {
+        "issue_category": "Supply Chain Sustainability",
+        "urgency": "MEDIUM",
+        "sentiment": "NEUTRAL",
+        "followup_required": "Y",
+        "recommended_team": "Procurement and Sustainability",
+        "escalation_reason": "Potential non-compliance with company sustainability policy by a supplier.",
+        "data_sensitivity_risk": "LOW",
+        "brief_summary": "An employee reported a concern that a supplier may not be meeting the company's sustainability policy."
+      }
+    ],
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T04:57:49.498267+00:00",
+    "test_id": "NEW-02",
+    "prompt_version": "original",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "[\n  {\n    \"issue_category\": \"Waste Management\",\n    \"urgency\": \"MEDIUM\",\n    \"sentiment\": \"NEGATIVE\",\n    \"followup_required\": \"Y\",\n    \"recommended_team\": \"Facilities Management\",\n    \"escalation_reason\": \"Repeated contamination of recycling bins indicates a lack of oversight and potential failure in waste sorting protocols.\",\n    \"data_sensitivity_risk\": \"LOW\",\n    \"brief_summary\": \"Recycling bins are continually contaminated due to lack of monitoring.\"\n  }\n]",
+    "parsed": [
+      {
+        "issue_category": "Waste Management",
+        "urgency": "MEDIUM",
+        "sentiment": "NEGATIVE",
+        "followup_required": "Y",
+        "recommended_team": "Facilities Management",
+        "escalation_reason": "Repeated contamination of recycling bins indicates a lack of oversight and potential failure in waste sorting protocols.",
+        "data_sensitivity_risk": "LOW",
+        "brief_summary": "Recycling bins are continually contaminated due to lack of monitoring."
+      }
+    ],
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T04:57:54.038443+00:00",
+    "test_id": "NEW-03",
+    "prompt_version": "original",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "[\n  {\n    \"issue_category\": \"Emissions Reporting Omission / Falsification\",\n    \"urgency\": \"HIGH\",\n    \"sentiment\": \"NEGATIVE\",\n    \"followup_required\": \"Y\",\n    \"recommended_team\": \"Compliance / Ethics / Internal Audit\",\n    \"escalation_reason\": \"Potential fraudulent environmental reporting and management directive to omit material emissions data.\",\n    \"data_sensitivity_risk\": \"HIGH\",\n    \"brief_summary\": \"An employee reports being instructed by their manager to exclude diesel generator figures from the quarterly emissions report and requests anonymity.\"\n  }\n]",
+    "parsed": [
+      {
+        "issue_category": "Emissions Reporting Omission / Falsification",
+        "urgency": "HIGH",
+        "sentiment": "NEGATIVE",
+        "followup_required": "Y",
+        "recommended_team": "Compliance / Ethics / Internal Audit",
+        "escalation_reason": "Potential fraudulent environmental reporting and management directive to omit material emissions data.",
+        "data_sensitivity_risk": "HIGH",
+        "brief_summary": "An employee reports being instructed by their manager to exclude diesel generator figures from the quarterly emissions report and requests anonymity."
+      }
+    ],
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T04:57:59.544451+00:00",
+    "test_id": "ESG-01",
+    "prompt_version": "v1",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"WATER_LEAK\",\n  \"urgency\": \"HIGH\",\n  \"sentiment\": \"NEUTRAL\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Facilities Management\",\n  \"escalation_reason\": \"Active water leak running all morning requiring immediate containment and repair.\",\n  \"data_sensitivity_risk\": \"LOW\",\n  \"brief_summary\": \"A water leak has been running all morning in Building C.\"\n}",
+    "parsed": {
+      "issue_category": "WATER_LEAK",
+      "urgency": "HIGH",
+      "sentiment": "NEUTRAL",
+      "followup_required": "Y",
+      "recommended_team": "Facilities Management",
+      "escalation_reason": "Active water leak running all morning requiring immediate containment and repair.",
+      "data_sensitivity_risk": "LOW",
+      "brief_summary": "A water leak has been running all morning in Building C."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T04:58:02.938808+00:00",
+    "test_id": "ESG-02",
+    "prompt_version": "v1",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"ENERGY_WASTE\",\n  \"urgency\": \"MEDIUM\",\n  \"sentiment\": \"NEUTRAL\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Facilities Management\",\n  \"escalation_reason\": \"None\",\n  \"data_sensitivity_risk\": \"LOW\",\n  \"brief_summary\": \"Air conditioning is running overnight in an empty office.\"\n}",
+    "parsed": {
+      "issue_category": "ENERGY_WASTE",
+      "urgency": "MEDIUM",
+      "sentiment": "NEUTRAL",
+      "followup_required": "Y",
+      "recommended_team": "Facilities Management",
+      "escalation_reason": "None",
+      "data_sensitivity_risk": "LOW",
+      "brief_summary": "Air conditioning is running overnight in an empty office."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T04:58:07.604414+00:00",
+    "test_id": "ESG-03",
+    "prompt_version": "v1",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"ACCESSIBILITY\",\n  \"urgency\": \"HIGH\",\n  \"sentiment\": \"NEUTRAL\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Facilities Management\",\n  \"escalation_reason\": \"The accessible entrance near the main building has been blocked for two days.\",\n  \"data_sensitivity_risk\": \"LOW\",\n  \"brief_summary\": \"The accessible entrance near the main building has been blocked for two days.\"\n}",
+    "parsed": {
+      "issue_category": "ACCESSIBILITY",
+      "urgency": "HIGH",
+      "sentiment": "NEUTRAL",
+      "followup_required": "Y",
+      "recommended_team": "Facilities Management",
+      "escalation_reason": "The accessible entrance near the main building has been blocked for two days.",
+      "data_sensitivity_risk": "LOW",
+      "brief_summary": "The accessible entrance near the main building has been blocked for two days."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T04:58:12.235845+00:00",
+    "test_id": "ESG-04",
+    "prompt_version": "v1",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"WASTE_RECYCLING\",\n  \"urgency\": \"LOW\",\n  \"sentiment\": \"NEUTRAL\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Facilities Management\",\n  \"escalation_reason\": \"None\",\n  \"data_sensitivity_risk\": \"LOW\",\n  \"brief_summary\": \"The recycling bin in Meeting Room 2 is nearly full but not overflowing.\"\n}",
+    "parsed": {
+      "issue_category": "WASTE_RECYCLING",
+      "urgency": "LOW",
+      "sentiment": "NEUTRAL",
+      "followup_required": "Y",
+      "recommended_team": "Facilities Management",
+      "escalation_reason": "None",
+      "data_sensitivity_risk": "LOW",
+      "brief_summary": "The recycling bin in Meeting Room 2 is nearly full but not overflowing."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T04:58:16.922260+00:00",
+    "test_id": "ESG-05",
+    "prompt_version": "v1",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"ENERGY_WASTE\",\n  \"urgency\": \"CRITICAL\",\n  \"sentiment\": \"NEGATIVE\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Facilities and Emergency Response\",\n  \"escalation_reason\": \"Credible immediate threat to life or serious harm due to a strong smell of gas with staff inside the kitchen.\",\n  \"data_sensitivity_risk\": \"LOW\",\n  \"brief_summary\": \"A strong smell of gas is reported in the kitchen where staff are currently located.\"\n}",
+    "parsed": {
+      "issue_category": "ENERGY_WASTE",
+      "urgency": "CRITICAL",
+      "sentiment": "NEGATIVE",
+      "followup_required": "Y",
+      "recommended_team": "Facilities and Emergency Response",
+      "escalation_reason": "Credible immediate threat to life or serious harm due to a strong smell of gas with staff inside the kitchen.",
+      "data_sensitivity_risk": "LOW",
+      "brief_summary": "A strong smell of gas is reported in the kitchen where staff are currently located."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T04:58:21.002010+00:00",
+    "test_id": "ESG-06",
+    "prompt_version": "v1",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"OTHER\",\n  \"urgency\": \"LOW\",\n  \"sentiment\": \"NEUTRAL\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Facilities Management\",\n  \"escalation_reason\": \"None\",\n  \"data_sensitivity_risk\": \"LOW\",\n  \"brief_summary\": \"Employee reported an unspecified problem in the building requiring attention.\"\n}",
+    "parsed": {
+      "issue_category": "OTHER",
+      "urgency": "LOW",
+      "sentiment": "NEUTRAL",
+      "followup_required": "Y",
+      "recommended_team": "Facilities Management",
+      "escalation_reason": "None",
+      "data_sensitivity_risk": "LOW",
+      "brief_summary": "Employee reported an unspecified problem in the building requiring attention."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T04:58:25.639323+00:00",
+    "test_id": "ESG-07",
+    "prompt_version": "v1",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"OTHER\",\n  \"urgency\": \"LOW\",\n  \"sentiment\": \"NEUTRAL\",\n  \"followup_required\": \"N\",\n  \"recommended_team\": \"Administrative Support\",\n  \"escalation_reason\": \"None\",\n  \"data_sensitivity_risk\": \"LOW\",\n  \"brief_summary\": \"Employee is requesting the minutes from yesterday's meeting.\"\n}",
+    "parsed": {
+      "issue_category": "OTHER",
+      "urgency": "LOW",
+      "sentiment": "NEUTRAL",
+      "followup_required": "N",
+      "recommended_team": "Administrative Support",
+      "escalation_reason": "None",
+      "data_sensitivity_risk": "LOW",
+      "brief_summary": "Employee is requesting the minutes from yesterday's meeting."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T04:58:30.340711+00:00",
+    "test_id": "ESG-08",
+    "prompt_version": "v1",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"ACCESSIBILITY\",\n  \"urgency\": \"HIGH\",\n  \"sentiment\": \"NEUTRAL\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Facilities Management\",\n  \"escalation_reason\": \"The accessible entrance is blocked, preventing wheelchair users from entering.\",\n  \"data_sensitivity_risk\": \"LOW\",\n  \"brief_summary\": \"The accessible entrance is blocked and preventing a wheelchair user from entering.\"\n}",
+    "parsed": {
+      "issue_category": "ACCESSIBILITY",
+      "urgency": "HIGH",
+      "sentiment": "NEUTRAL",
+      "followup_required": "Y",
+      "recommended_team": "Facilities Management",
+      "escalation_reason": "The accessible entrance is blocked, preventing wheelchair users from entering.",
+      "data_sensitivity_risk": "LOW",
+      "brief_summary": "The accessible entrance is blocked and preventing a wheelchair user from entering."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T04:58:35.795863+00:00",
+    "test_id": "HOLD-01",
+    "prompt_version": "v1",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"WATER_LEAK\",\n  \"urgency\": \"HIGH\",\n  \"sentiment\": \"NEUTRAL\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Facilities Maintenance\",\n  \"escalation_reason\": \"Active water leak beneath the kitchenette sink creating a puddle.\",\n  \"data_sensitivity_risk\": \"LOW\",\n  \"brief_summary\": \"Water is dripping beneath the kitchenette sink, creating a small puddle.\"\n}",
+    "parsed": {
+      "issue_category": "WATER_LEAK",
+      "urgency": "HIGH",
+      "sentiment": "NEUTRAL",
+      "followup_required": "Y",
+      "recommended_team": "Facilities Maintenance",
+      "escalation_reason": "Active water leak beneath the kitchenette sink creating a puddle.",
+      "data_sensitivity_risk": "LOW",
+      "brief_summary": "Water is dripping beneath the kitchenette sink, creating a small puddle."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T04:58:40.676738+00:00",
+    "test_id": "HOLD-02",
+    "prompt_version": "v1",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"ENERGY_WASTE\",\n  \"urgency\": \"LOW\",\n  \"sentiment\": \"NEUTRAL\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Facilities Management\",\n  \"escalation_reason\": \"None\",\n  \"data_sensitivity_risk\": \"LOW\",\n  \"brief_summary\": \"Lights in Conference Room 4 were left on overnight.\"\n}",
+    "parsed": {
+      "issue_category": "ENERGY_WASTE",
+      "urgency": "LOW",
+      "sentiment": "NEUTRAL",
+      "followup_required": "Y",
+      "recommended_team": "Facilities Management",
+      "escalation_reason": "None",
+      "data_sensitivity_risk": "LOW",
+      "brief_summary": "Lights in Conference Room 4 were left on overnight."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T04:58:44.464348+00:00",
+    "test_id": "HOLD-03",
+    "prompt_version": "v1",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"WASTE_RECYCLING\",\n  \"urgency\": \"LOW\",\n  \"sentiment\": \"NEUTRAL\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Facilities Management\",\n  \"escalation_reason\": \"None\",\n  \"data_sensitivity_risk\": \"LOW\",\n  \"brief_summary\": \"The recycling container is overflowing with paper and bottles spilling onto the floor.\"\n}",
+    "parsed": {
+      "issue_category": "WASTE_RECYCLING",
+      "urgency": "LOW",
+      "sentiment": "NEUTRAL",
+      "followup_required": "Y",
+      "recommended_team": "Facilities Management",
+      "escalation_reason": "None",
+      "data_sensitivity_risk": "LOW",
+      "brief_summary": "The recycling container is overflowing with paper and bottles spilling onto the floor."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T04:58:48.814426+00:00",
+    "test_id": "HOLD-04",
+    "prompt_version": "v1",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"ACCESSIBILITY\",\n  \"urgency\": \"MEDIUM\",\n  \"sentiment\": \"NEUTRAL\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Facilities Management\",\n  \"escalation_reason\": \"Slippery step-free ramp at the west entrance poses a potential slip and fall hazard for accessibility users.\",\n  \"data_sensitivity_risk\": \"LOW\",\n  \"brief_summary\": \"The step-free ramp at the west entrance is slippery following cleaning while remaining open.\"\n}",
+    "parsed": {
+      "issue_category": "ACCESSIBILITY",
+      "urgency": "MEDIUM",
+      "sentiment": "NEUTRAL",
+      "followup_required": "Y",
+      "recommended_team": "Facilities Management",
+      "escalation_reason": "Slippery step-free ramp at the west entrance poses a potential slip and fall hazard for accessibility users.",
+      "data_sensitivity_risk": "LOW",
+      "brief_summary": "The step-free ramp at the west entrance is slippery following cleaning while remaining open."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T04:58:52.978332+00:00",
+    "test_id": "HOLD-05",
+    "prompt_version": "v1",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"WATER_LEAK\",\n  \"urgency\": \"HIGH\",\n  \"sentiment\": \"NEGATIVE\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Environmental Health and Safety\",\n  \"escalation_reason\": \"Chemical spill near a drain causing breathing irritation to nearby staff.\",\n  \"data_sensitivity_risk\": \"LOW\",\n  \"brief_summary\": \"A cleaning chemical spilled near an open drain, causing breathing irritation for nearby staff.\"\n}",
+    "parsed": {
+      "issue_category": "WATER_LEAK",
+      "urgency": "HIGH",
+      "sentiment": "NEGATIVE",
+      "followup_required": "Y",
+      "recommended_team": "Environmental Health and Safety",
+      "escalation_reason": "Chemical spill near a drain causing breathing irritation to nearby staff.",
+      "data_sensitivity_risk": "LOW",
+      "brief_summary": "A cleaning chemical spilled near an open drain, causing breathing irritation for nearby staff."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T04:58:57.776523+00:00",
+    "test_id": "HOLD-06",
+    "prompt_version": "v1",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"WATER_LEAK\",\n  \"urgency\": \"HIGH\",\n  \"sentiment\": \"NEUTRAL\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Facilities Management\",\n  \"escalation_reason\": \"Water is flowing through a ceiling tile above an electrical distribution panel, creating a significant disruption and safety hazard.\",\n  \"data_sensitivity_risk\": \"LOW\",\n  \"brief_summary\": \"Water is flowing through a ceiling tile directly above an electrical distribution panel.\"\n}",
+    "parsed": {
+      "issue_category": "WATER_LEAK",
+      "urgency": "HIGH",
+      "sentiment": "NEUTRAL",
+      "followup_required": "Y",
+      "recommended_team": "Facilities Management",
+      "escalation_reason": "Water is flowing through a ceiling tile above an electrical distribution panel, creating a significant disruption and safety hazard.",
+      "data_sensitivity_risk": "LOW",
+      "brief_summary": "Water is flowing through a ceiling tile directly above an electrical distribution panel."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T04:59:02.020452+00:00",
+    "test_id": "HOLD-07",
+    "prompt_version": "v1",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"OTHER\",\n  \"urgency\": \"LOW\",\n  \"sentiment\": \"NEUTRAL\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Administration\",\n  \"escalation_reason\": \"None\",\n  \"data_sensitivity_risk\": \"LOW\",\n  \"brief_summary\": \"Printer in the administration office is out of paper and needs refilling.\"\n}",
+    "parsed": {
+      "issue_category": "OTHER",
+      "urgency": "LOW",
+      "sentiment": "NEUTRAL",
+      "followup_required": "Y",
+      "recommended_team": "Administration",
+      "escalation_reason": "None",
+      "data_sensitivity_risk": "LOW",
+      "brief_summary": "Printer in the administration office is out of paper and needs refilling."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T04:59:05.886133+00:00",
+    "test_id": "HOLD-08",
+    "prompt_version": "v1",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"ACCESSIBILITY\",\n  \"urgency\": \"HIGH\",\n  \"sentiment\": \"NEGATIVE\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Human Resources and Privacy Compliance\",\n  \"escalation_reason\": \"Sensitive employee medical accommodation details exposed on a public noticeboard, creating a privacy and accessibility risk.\",\n  \"data_sensitivity_risk\": \"HIGH\",\n  \"brief_summary\": \"An employee's medical accommodation details were accidentally displayed on a public noticeboard and require removal.\"\n}",
+    "parsed": {
+      "issue_category": "ACCESSIBILITY",
+      "urgency": "HIGH",
+      "sentiment": "NEGATIVE",
+      "followup_required": "Y",
+      "recommended_team": "Human Resources and Privacy Compliance",
+      "escalation_reason": "Sensitive employee medical accommodation details exposed on a public noticeboard, creating a privacy and accessibility risk.",
+      "data_sensitivity_risk": "HIGH",
+      "brief_summary": "An employee's medical accommodation details were accidentally displayed on a public noticeboard and require removal."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T04:59:10.458291+00:00",
+    "test_id": "NEW-01",
+    "prompt_version": "v1",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"SUSTAINABLE_PROCUREMENT\",\n  \"urgency\": \"MEDIUM\",\n  \"sentiment\": \"NEUTRAL\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Procurement and Sustainability Team\",\n  \"escalation_reason\": \"None\",\n  \"data_sensitivity_risk\": \"LOW\",\n  \"brief_summary\": \"An employee reports that a supplier may not meet the company's sustainability policy.\"\n}",
+    "parsed": {
+      "issue_category": "SUSTAINABLE_PROCUREMENT",
+      "urgency": "MEDIUM",
+      "sentiment": "NEUTRAL",
+      "followup_required": "Y",
+      "recommended_team": "Procurement and Sustainability Team",
+      "escalation_reason": "None",
+      "data_sensitivity_risk": "LOW",
+      "brief_summary": "An employee reports that a supplier may not meet the company's sustainability policy."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T04:59:14.920530+00:00",
+    "test_id": "NEW-02",
+    "prompt_version": "v1",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"WASTE_RECYCLING\",\n  \"urgency\": \"LOW\",\n  \"sentiment\": \"NEGATIVE\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Facilities Management\",\n  \"escalation_reason\": \"None\",\n  \"data_sensitivity_risk\": \"LOW\",\n  \"brief_summary\": \"Recycling bins are contaminated and lack monitoring.\"\n}",
+    "parsed": {
+      "issue_category": "WASTE_RECYCLING",
+      "urgency": "LOW",
+      "sentiment": "NEGATIVE",
+      "followup_required": "Y",
+      "recommended_team": "Facilities Management",
+      "escalation_reason": "None",
+      "data_sensitivity_risk": "LOW",
+      "brief_summary": "Recycling bins are contaminated and lack monitoring."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T04:59:19.363650+00:00",
+    "test_id": "NEW-03",
+    "prompt_version": "v1",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"OTHER\",\n  \"urgency\": \"HIGH\",\n  \"sentiment\": \"NEGATIVE\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Compliance and Ethics\",\n  \"escalation_reason\": \"Request to omit emissions data from the quarterly report, raising concerns about reporting integrity and compliance.\",\n  \"data_sensitivity_risk\": \"HIGH\",\n  \"brief_summary\": \"An employee reported that their manager asked to exclude diesel generator figures from the quarterly emissions report and requested anonymity.\"\n}",
+    "parsed": {
+      "issue_category": "OTHER",
+      "urgency": "HIGH",
+      "sentiment": "NEGATIVE",
+      "followup_required": "Y",
+      "recommended_team": "Compliance and Ethics",
+      "escalation_reason": "Request to omit emissions data from the quarterly report, raising concerns about reporting integrity and compliance.",
+      "data_sensitivity_risk": "HIGH",
+      "brief_summary": "An employee reported that their manager asked to exclude diesel generator figures from the quarterly emissions report and requested anonymity."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T04:59:23.980549+00:00",
+    "test_id": "ESG-01",
+    "prompt_version": "v2",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"WATER_LEAK\",\n  \"urgency\": \"HIGH\",\n  \"sentiment\": \"NEUTRAL\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Facilities Management\",\n  \"escalation_reason\": \"Active water leak running all morning requiring immediate attention\",\n  \"data_sensitivity_risk\": \"LOW\",\n  \"brief_summary\": \"Water leak reported in Building C running all morning.\"\n}",
+    "parsed": {
+      "issue_category": "WATER_LEAK",
+      "urgency": "HIGH",
+      "sentiment": "NEUTRAL",
+      "followup_required": "Y",
+      "recommended_team": "Facilities Management",
+      "escalation_reason": "Active water leak running all morning requiring immediate attention",
+      "data_sensitivity_risk": "LOW",
+      "brief_summary": "Water leak reported in Building C running all morning."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T04:59:28.433352+00:00",
+    "test_id": "ESG-02",
+    "prompt_version": "v2",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"ENERGY_WASTE\",\n  \"urgency\": \"LOW\",\n  \"sentiment\": \"NEUTRAL\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Facilities Management\",\n  \"escalation_reason\": \"None\",\n  \"data_sensitivity_risk\": \"LOW\",\n  \"brief_summary\": \"The air conditioning is running overnight in an empty office.\"\n}",
+    "parsed": {
+      "issue_category": "ENERGY_WASTE",
+      "urgency": "LOW",
+      "sentiment": "NEUTRAL",
+      "followup_required": "Y",
+      "recommended_team": "Facilities Management",
+      "escalation_reason": "None",
+      "data_sensitivity_risk": "LOW",
+      "brief_summary": "The air conditioning is running overnight in an empty office."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T04:59:32.901713+00:00",
+    "test_id": "ESG-03",
+    "prompt_version": "v2",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"ACCESSIBILITY\",\n  \"urgency\": \"HIGH\",\n  \"sentiment\": \"NEUTRAL\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Facilities Management\",\n  \"escalation_reason\": \"The accessible entrance has been blocked for two days.\",\n  \"data_sensitivity_risk\": \"LOW\",\n  \"brief_summary\": \"The accessible entrance near the main building has been blocked for two days.\"\n}",
+    "parsed": {
+      "issue_category": "ACCESSIBILITY",
+      "urgency": "HIGH",
+      "sentiment": "NEUTRAL",
+      "followup_required": "Y",
+      "recommended_team": "Facilities Management",
+      "escalation_reason": "The accessible entrance has been blocked for two days.",
+      "data_sensitivity_risk": "LOW",
+      "brief_summary": "The accessible entrance near the main building has been blocked for two days."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T04:59:37.376239+00:00",
+    "test_id": "ESG-04",
+    "prompt_version": "v2",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"WASTE_RECYCLING\",\n  \"urgency\": \"LOW\",\n  \"sentiment\": \"NEUTRAL\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Facilities Management\",\n  \"escalation_reason\": \"None\",\n  \"data_sensitivity_risk\": \"LOW\",\n  \"brief_summary\": \"The recycling bin in Meeting Room 2 is nearly full.\"\n}",
+    "parsed": {
+      "issue_category": "WASTE_RECYCLING",
+      "urgency": "LOW",
+      "sentiment": "NEUTRAL",
+      "followup_required": "Y",
+      "recommended_team": "Facilities Management",
+      "escalation_reason": "None",
+      "data_sensitivity_risk": "LOW",
+      "brief_summary": "The recycling bin in Meeting Room 2 is nearly full."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T04:59:42.031027+00:00",
+    "test_id": "ESG-05",
+    "prompt_version": "v2",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"OTHER\",\n  \"urgency\": \"CRITICAL\",\n  \"sentiment\": \"NEGATIVE\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Emergency Response Team\",\n  \"escalation_reason\": \"Credible immediate threat involving a suspected gas leak with staff still inside the kitchen.\",\n  \"data_sensitivity_risk\": \"LOW\",\n  \"brief_summary\": \"A strong smell of gas is reported in the kitchen while staff remain inside.\"\n}",
+    "parsed": {
+      "issue_category": "OTHER",
+      "urgency": "CRITICAL",
+      "sentiment": "NEGATIVE",
+      "followup_required": "Y",
+      "recommended_team": "Emergency Response Team",
+      "escalation_reason": "Credible immediate threat involving a suspected gas leak with staff still inside the kitchen.",
+      "data_sensitivity_risk": "LOW",
+      "brief_summary": "A strong smell of gas is reported in the kitchen while staff remain inside."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T04:59:46.456985+00:00",
+    "test_id": "ESG-06",
+    "prompt_version": "v2",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"OTHER\",\n  \"urgency\": \"LOW\",\n  \"sentiment\": \"NEUTRAL\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Facility Management\",\n  \"escalation_reason\": \"None\",\n  \"data_sensitivity_risk\": \"LOW\",\n  \"brief_summary\": \"Employee reported an unspecified problem in the building requiring attention.\"\n}",
+    "parsed": {
+      "issue_category": "OTHER",
+      "urgency": "LOW",
+      "sentiment": "NEUTRAL",
+      "followup_required": "Y",
+      "recommended_team": "Facility Management",
+      "escalation_reason": "None",
+      "data_sensitivity_risk": "LOW",
+      "brief_summary": "Employee reported an unspecified problem in the building requiring attention."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T04:59:50.874081+00:00",
+    "test_id": "ESG-07",
+    "prompt_version": "v2",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"OTHER\",\n  \"urgency\": \"LOW\",\n  \"sentiment\": \"NEUTRAL\",\n  \"followup_required\": \"N\",\n  \"recommended_team\": \"Administrative Support\",\n  \"escalation_reason\": \"None\",\n  \"data_sensitivity_risk\": \"LOW\",\n  \"brief_summary\": \"Employee requested the minutes from yesterday's meeting.\"\n}",
+    "parsed": {
+      "issue_category": "OTHER",
+      "urgency": "LOW",
+      "sentiment": "NEUTRAL",
+      "followup_required": "N",
+      "recommended_team": "Administrative Support",
+      "escalation_reason": "None",
+      "data_sensitivity_risk": "LOW",
+      "brief_summary": "Employee requested the minutes from yesterday's meeting."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T04:59:55.341660+00:00",
+    "test_id": "ESG-08",
+    "prompt_version": "v2",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"ACCESSIBILITY\",\n  \"urgency\": \"HIGH\",\n  \"sentiment\": \"NEGATIVE\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Facilities and Accessibility Team\",\n  \"escalation_reason\": \"The accessible entrance is blocked and a wheelchair user cannot enter.\",\n  \"data_sensitivity_risk\": \"LOW\",\n  \"brief_summary\": \"The accessible entrance is blocked, preventing wheelchair entry.\"\n}",
+    "parsed": {
+      "issue_category": "ACCESSIBILITY",
+      "urgency": "HIGH",
+      "sentiment": "NEGATIVE",
+      "followup_required": "Y",
+      "recommended_team": "Facilities and Accessibility Team",
+      "escalation_reason": "The accessible entrance is blocked and a wheelchair user cannot enter.",
+      "data_sensitivity_risk": "LOW",
+      "brief_summary": "The accessible entrance is blocked, preventing wheelchair entry."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T04:59:59.947291+00:00",
+    "test_id": "HOLD-01",
+    "prompt_version": "v2",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"WATER_LEAK\",\n  \"urgency\": \"MEDIUM\",\n  \"sentiment\": \"NEUTRAL\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Facilities Management\",\n  \"escalation_reason\": \"None\",\n  \"data_sensitivity_risk\": \"LOW\",\n  \"brief_summary\": \"Water is dripping beneath the kitchenette sink, forming a small puddle.\"\n}",
+    "parsed": {
+      "issue_category": "WATER_LEAK",
+      "urgency": "MEDIUM",
+      "sentiment": "NEUTRAL",
+      "followup_required": "Y",
+      "recommended_team": "Facilities Management",
+      "escalation_reason": "None",
+      "data_sensitivity_risk": "LOW",
+      "brief_summary": "Water is dripping beneath the kitchenette sink, forming a small puddle."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T05:00:04.366410+00:00",
+    "test_id": "HOLD-02",
+    "prompt_version": "v2",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"ENERGY_WASTE\",\n  \"urgency\": \"LOW\",\n  \"sentiment\": \"NEUTRAL\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Facilities Management\",\n  \"escalation_reason\": null,\n  \"data_sensitivity_risk\": \"LOW\",\n  \"brief_summary\": \"Lights in Conference Room 4 were left on overnight.\"\n}",
+    "parsed": {
+      "issue_category": "ENERGY_WASTE",
+      "urgency": "LOW",
+      "sentiment": "NEUTRAL",
+      "followup_required": "Y",
+      "recommended_team": "Facilities Management",
+      "escalation_reason": null,
+      "data_sensitivity_risk": "LOW",
+      "brief_summary": "Lights in Conference Room 4 were left on overnight."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T05:00:08.884871+00:00",
+    "test_id": "HOLD-03",
+    "prompt_version": "v2",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"WASTE_RECYCLING\",\n  \"urgency\": \"LOW\",\n  \"sentiment\": \"NEUTRAL\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Facilities Management\",\n  \"escalation_reason\": null,\n  \"data_sensitivity_risk\": \"LOW\",\n  \"brief_summary\": \"The recycling container is overflowing with paper and bottles spilling onto the floor.\"\n}",
+    "parsed": {
+      "issue_category": "WASTE_RECYCLING",
+      "urgency": "LOW",
+      "sentiment": "NEUTRAL",
+      "followup_required": "Y",
+      "recommended_team": "Facilities Management",
+      "escalation_reason": null,
+      "data_sensitivity_risk": "LOW",
+      "brief_summary": "The recycling container is overflowing with paper and bottles spilling onto the floor."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T05:00:13.415083+00:00",
+    "test_id": "HOLD-04",
+    "prompt_version": "v2",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"ACCESSIBILITY\",\n  \"urgency\": \"MEDIUM\",\n  \"sentiment\": \"NEUTRAL\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Facilities Management\",\n  \"escalation_reason\": \"None\",\n  \"data_sensitivity_risk\": \"LOW\",\n  \"brief_summary\": \"The step-free ramp at the west entrance is slippery following cleaning.\"\n}",
+    "parsed": {
+      "issue_category": "ACCESSIBILITY",
+      "urgency": "MEDIUM",
+      "sentiment": "NEUTRAL",
+      "followup_required": "Y",
+      "recommended_team": "Facilities Management",
+      "escalation_reason": "None",
+      "data_sensitivity_risk": "LOW",
+      "brief_summary": "The step-free ramp at the west entrance is slippery following cleaning."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T05:00:17.904096+00:00",
+    "test_id": "HOLD-05",
+    "prompt_version": "v2",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"OTHER\",\n  \"urgency\": \"CRITICAL\",\n  \"sentiment\": \"NEGATIVE\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Health, Safety and Environment (HSE)\",\n  \"escalation_reason\": \"Chemical spill near an open drain causing breathing irritation in nearby staff, representing an immediate health hazard.\",\n  \"data_sensitivity_risk\": \"LOW\",\n  \"brief_summary\": \"A cleaning chemical spilled near an open drain, causing breathing irritation for staff nearby.\"\n}",
+    "parsed": {
+      "issue_category": "OTHER",
+      "urgency": "CRITICAL",
+      "sentiment": "NEGATIVE",
+      "followup_required": "Y",
+      "recommended_team": "Health, Safety and Environment (HSE)",
+      "escalation_reason": "Chemical spill near an open drain causing breathing irritation in nearby staff, representing an immediate health hazard.",
+      "data_sensitivity_risk": "LOW",
+      "brief_summary": "A cleaning chemical spilled near an open drain, causing breathing irritation for staff nearby."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T05:00:22.415607+00:00",
+    "test_id": "HOLD-06",
+    "prompt_version": "v2",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"WATER_LEAK\",\n  \"urgency\": \"HIGH\",\n  \"sentiment\": \"NEUTRAL\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Facilities Management\",\n  \"escalation_reason\": \"Water is flowing through a ceiling tile above an electrical distribution panel, posing an immediate electrical and safety hazard.\",\n  \"data_sensitivity_risk\": \"LOW\",\n  \"brief_summary\": \"Water is flowing through a ceiling tile directly above an electrical distribution panel.\"\n}",
+    "parsed": {
+      "issue_category": "WATER_LEAK",
+      "urgency": "HIGH",
+      "sentiment": "NEUTRAL",
+      "followup_required": "Y",
+      "recommended_team": "Facilities Management",
+      "escalation_reason": "Water is flowing through a ceiling tile above an electrical distribution panel, posing an immediate electrical and safety hazard.",
+      "data_sensitivity_risk": "LOW",
+      "brief_summary": "Water is flowing through a ceiling tile directly above an electrical distribution panel."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T05:00:27.058215+00:00",
+    "test_id": "HOLD-07",
+    "prompt_version": "v2",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"OTHER\",\n  \"urgency\": \"LOW\",\n  \"sentiment\": \"NEUTRAL\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Office Administration\",\n  \"escalation_reason\": \"None\",\n  \"data_sensitivity_risk\": \"LOW\",\n  \"brief_summary\": \"Printer in the administration office ran out of paper and needs refilling.\"\n}",
+    "parsed": {
+      "issue_category": "OTHER",
+      "urgency": "LOW",
+      "sentiment": "NEUTRAL",
+      "followup_required": "Y",
+      "recommended_team": "Office Administration",
+      "escalation_reason": "None",
+      "data_sensitivity_risk": "LOW",
+      "brief_summary": "Printer in the administration office ran out of paper and needs refilling."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T05:00:31.444481+00:00",
+    "test_id": "HOLD-08",
+    "prompt_version": "v2",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"OTHER\",\n  \"urgency\": \"HIGH\",\n  \"sentiment\": \"NEGATIVE\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"HR and Data Privacy\",\n  \"escalation_reason\": \"Sensitive medical accommodation details exposed on a public noticeboard, posing a privacy and data security risk.\",\n  \"data_sensitivity_risk\": \"HIGH\",\n  \"brief_summary\": \"An employee's medical accommodation details were accidentally displayed on a public noticeboard and require removal.\"\n}",
+    "parsed": {
+      "issue_category": "OTHER",
+      "urgency": "HIGH",
+      "sentiment": "NEGATIVE",
+      "followup_required": "Y",
+      "recommended_team": "HR and Data Privacy",
+      "escalation_reason": "Sensitive medical accommodation details exposed on a public noticeboard, posing a privacy and data security risk.",
+      "data_sensitivity_risk": "HIGH",
+      "brief_summary": "An employee's medical accommodation details were accidentally displayed on a public noticeboard and require removal."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T05:00:35.989062+00:00",
+    "test_id": "NEW-01",
+    "prompt_version": "v2",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"SUSTAINABLE_PROCUREMENT\",\n  \"urgency\": \"LOW\",\n  \"sentiment\": \"NEUTRAL\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Procurement Team\",\n  \"escalation_reason\": \"None\",\n  \"data_sensitivity_risk\": \"LOW\",\n  \"brief_summary\": \"Employee reported a supplier may not meet the company's sustainability policy.\"\n}",
+    "parsed": {
+      "issue_category": "SUSTAINABLE_PROCUREMENT",
+      "urgency": "LOW",
+      "sentiment": "NEUTRAL",
+      "followup_required": "Y",
+      "recommended_team": "Procurement Team",
+      "escalation_reason": "None",
+      "data_sensitivity_risk": "LOW",
+      "brief_summary": "Employee reported a supplier may not meet the company's sustainability policy."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T05:00:40.420802+00:00",
+    "test_id": "NEW-02",
+    "prompt_version": "v2",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"WASTE_RECYCLING\",\n  \"urgency\": \"LOW\",\n  \"sentiment\": \"NEGATIVE\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Facilities Management\",\n  \"escalation_reason\": \"None\",\n  \"data_sensitivity_risk\": \"LOW\",\n  \"brief_summary\": \"Recycling bins are contaminated and not being checked.\"\n}",
+    "parsed": {
+      "issue_category": "WASTE_RECYCLING",
+      "urgency": "LOW",
+      "sentiment": "NEGATIVE",
+      "followup_required": "Y",
+      "recommended_team": "Facilities Management",
+      "escalation_reason": "None",
+      "data_sensitivity_risk": "LOW",
+      "brief_summary": "Recycling bins are contaminated and not being checked."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T05:00:44.937928+00:00",
+    "test_id": "NEW-03",
+    "prompt_version": "v2",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"OTHER\",\n  \"urgency\": \"HIGH\",\n  \"sentiment\": \"NEGATIVE\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Compliance and Ethics\",\n  \"escalation_reason\": \"Employee instructed to omit diesel generator figures from quarterly emissions report, raising compliance and reporting integrity concerns.\",\n  \"data_sensitivity_risk\": \"HIGH\",\n  \"brief_summary\": \"An employee reported that their manager asked them to exclude diesel generator figures from the quarterly emissions report and requested anonymity.\"\n}",
+    "parsed": {
+      "issue_category": "OTHER",
+      "urgency": "HIGH",
+      "sentiment": "NEGATIVE",
+      "followup_required": "Y",
+      "recommended_team": "Compliance and Ethics",
+      "escalation_reason": "Employee instructed to omit diesel generator figures from quarterly emissions report, raising compliance and reporting integrity concerns.",
+      "data_sensitivity_risk": "HIGH",
+      "brief_summary": "An employee reported that their manager asked them to exclude diesel generator figures from the quarterly emissions report and requested anonymity."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T05:00:49.555650+00:00",
+    "test_id": "ESG-01",
+    "prompt_version": "v3",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"WATER_LEAK\",\n  \"urgency\": \"HIGH\",\n  \"sentiment\": \"NEUTRAL\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Facilities Management\",\n  \"escalation_reason\": \"Active water leak continuing for hours\",\n  \"data_sensitivity_risk\": \"LOW\",\n  \"brief_summary\": \"Water leak reported in Building C running all morning.\"\n}",
+    "parsed": {
+      "issue_category": "WATER_LEAK",
+      "urgency": "HIGH",
+      "sentiment": "NEUTRAL",
+      "followup_required": "Y",
+      "recommended_team": "Facilities Management",
+      "escalation_reason": "Active water leak continuing for hours",
+      "data_sensitivity_risk": "LOW",
+      "brief_summary": "Water leak reported in Building C running all morning."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T05:00:53.953786+00:00",
+    "test_id": "ESG-02",
+    "prompt_version": "v3",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"ENERGY_WASTE\",\n  \"urgency\": \"MEDIUM\",\n  \"sentiment\": \"NEUTRAL\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Facilities Management\",\n  \"escalation_reason\": \"None\",\n  \"data_sensitivity_risk\": \"LOW\",\n  \"brief_summary\": \"Air conditioning is running overnight in an empty office.\"\n}",
+    "parsed": {
+      "issue_category": "ENERGY_WASTE",
+      "urgency": "MEDIUM",
+      "sentiment": "NEUTRAL",
+      "followup_required": "Y",
+      "recommended_team": "Facilities Management",
+      "escalation_reason": "None",
+      "data_sensitivity_risk": "LOW",
+      "brief_summary": "Air conditioning is running overnight in an empty office."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T05:00:58.398889+00:00",
+    "test_id": "ESG-03",
+    "prompt_version": "v3",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"ACCESSIBILITY\",\n  \"urgency\": \"HIGH\",\n  \"sentiment\": \"NEGATIVE\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Facilities Management\",\n  \"escalation_reason\": \"The accessible entrance has been blocked for two days, preventing entry.\",\n  \"data_sensitivity_risk\": \"LOW\",\n  \"brief_summary\": \"The accessible entrance near the main building has been blocked for two days.\"\n}",
+    "parsed": {
+      "issue_category": "ACCESSIBILITY",
+      "urgency": "HIGH",
+      "sentiment": "NEGATIVE",
+      "followup_required": "Y",
+      "recommended_team": "Facilities Management",
+      "escalation_reason": "The accessible entrance has been blocked for two days, preventing entry.",
+      "data_sensitivity_risk": "LOW",
+      "brief_summary": "The accessible entrance near the main building has been blocked for two days."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T05:01:02.951883+00:00",
+    "test_id": "ESG-04",
+    "prompt_version": "v3",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"WASTE_RECYCLING\",\n  \"urgency\": \"LOW\",\n  \"sentiment\": \"NEUTRAL\",\n  \"followup_required\": \"N\",\n  \"recommended_team\": \"Facilities Management\",\n  \"escalation_reason\": \"None\",\n  \"data_sensitivity_risk\": \"LOW\",\n  \"brief_summary\": \"The recycling bin in Meeting Room 2 is nearly full but not overflowing.\"\n}",
+    "parsed": {
+      "issue_category": "WASTE_RECYCLING",
+      "urgency": "LOW",
+      "sentiment": "NEUTRAL",
+      "followup_required": "N",
+      "recommended_team": "Facilities Management",
+      "escalation_reason": "None",
+      "data_sensitivity_risk": "LOW",
+      "brief_summary": "The recycling bin in Meeting Room 2 is nearly full but not overflowing."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T05:01:07.433726+00:00",
+    "test_id": "ESG-05",
+    "prompt_version": "v3",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"OTHER\",\n  \"urgency\": \"CRITICAL\",\n  \"sentiment\": \"NEGATIVE\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Facilities and Emergency Response\",\n  \"escalation_reason\": \"Suspected gas leak with staff still inside the area presents a critical safety hazard.\",\n  \"data_sensitivity_risk\": \"LOW\",\n  \"brief_summary\": \"A strong smell of gas is reported in the kitchen while staff remain inside.\"\n}",
+    "parsed": {
+      "issue_category": "OTHER",
+      "urgency": "CRITICAL",
+      "sentiment": "NEGATIVE",
+      "followup_required": "Y",
+      "recommended_team": "Facilities and Emergency Response",
+      "escalation_reason": "Suspected gas leak with staff still inside the area presents a critical safety hazard.",
+      "data_sensitivity_risk": "LOW",
+      "brief_summary": "A strong smell of gas is reported in the kitchen while staff remain inside."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T05:01:12.102561+00:00",
+    "test_id": "ESG-06",
+    "prompt_version": "v3",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"OTHER\",\n  \"urgency\": \"LOW\",\n  \"sentiment\": \"NEUTRAL\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Facilities Management\",\n  \"escalation_reason\": \"Vague report with no described hazard or impact\",\n  \"data_sensitivity_risk\": \"LOW\",\n  \"brief_summary\": \"Employee reported a vague problem in the building without specifying details.\"\n}",
+    "parsed": {
+      "issue_category": "OTHER",
+      "urgency": "LOW",
+      "sentiment": "NEUTRAL",
+      "followup_required": "Y",
+      "recommended_team": "Facilities Management",
+      "escalation_reason": "Vague report with no described hazard or impact",
+      "data_sensitivity_risk": "LOW",
+      "brief_summary": "Employee reported a vague problem in the building without specifying details."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T05:01:16.562866+00:00",
+    "test_id": "ESG-07",
+    "prompt_version": "v3",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"OTHER\",\n  \"urgency\": \"LOW\",\n  \"sentiment\": \"NEUTRAL\",\n  \"followup_required\": \"N\",\n  \"recommended_team\": \"Administrative Support\",\n  \"escalation_reason\": \"None\",\n  \"data_sensitivity_risk\": \"LOW\",\n  \"brief_summary\": \"Employee requested the minutes from yesterday's meeting.\"\n}",
+    "parsed": {
+      "issue_category": "OTHER",
+      "urgency": "LOW",
+      "sentiment": "NEUTRAL",
+      "followup_required": "N",
+      "recommended_team": "Administrative Support",
+      "escalation_reason": "None",
+      "data_sensitivity_risk": "LOW",
+      "brief_summary": "Employee requested the minutes from yesterday's meeting."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T05:01:21.029049+00:00",
+    "test_id": "ESG-08",
+    "prompt_version": "v3",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"ACCESSIBILITY\",\n  \"urgency\": \"HIGH\",\n  \"sentiment\": \"NEGATIVE\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Facilities Management\",\n  \"escalation_reason\": \"None\",\n  \"data_sensitivity_risk\": \"LOW\",\n  \"brief_summary\": \"The accessible entrance is blocked and prevents a wheelchair user from entering.\"\n}",
+    "parsed": {
+      "issue_category": "ACCESSIBILITY",
+      "urgency": "HIGH",
+      "sentiment": "NEGATIVE",
+      "followup_required": "Y",
+      "recommended_team": "Facilities Management",
+      "escalation_reason": "None",
+      "data_sensitivity_risk": "LOW",
+      "brief_summary": "The accessible entrance is blocked and prevents a wheelchair user from entering."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T05:01:25.436533+00:00",
+    "test_id": "HOLD-01",
+    "prompt_version": "v3",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"WATER_LEAK\",\n  \"urgency\": \"MEDIUM\",\n  \"sentiment\": \"NEUTRAL\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Facilities Maintenance\",\n  \"escalation_reason\": \"None\",\n  \"data_sensitivity_risk\": \"LOW\",\n  \"brief_summary\": \"Water is dripping beneath the kitchenette sink with a small puddle noticed ten minutes ago.\"\n}",
+    "parsed": {
+      "issue_category": "WATER_LEAK",
+      "urgency": "MEDIUM",
+      "sentiment": "NEUTRAL",
+      "followup_required": "Y",
+      "recommended_team": "Facilities Maintenance",
+      "escalation_reason": "None",
+      "data_sensitivity_risk": "LOW",
+      "brief_summary": "Water is dripping beneath the kitchenette sink with a small puddle noticed ten minutes ago."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T05:01:29.933132+00:00",
+    "test_id": "HOLD-02",
+    "prompt_version": "v3",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"ENERGY_WASTE\",\n  \"urgency\": \"MEDIUM\",\n  \"sentiment\": \"NEUTRAL\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Facilities Management\",\n  \"escalation_reason\": null,\n  \"data_sensitivity_risk\": \"LOW\",\n  \"brief_summary\": \"Lights in Conference Room 4 were left on overnight after the room was vacated.\"\n}",
+    "parsed": {
+      "issue_category": "ENERGY_WASTE",
+      "urgency": "MEDIUM",
+      "sentiment": "NEUTRAL",
+      "followup_required": "Y",
+      "recommended_team": "Facilities Management",
+      "escalation_reason": null,
+      "data_sensitivity_risk": "LOW",
+      "brief_summary": "Lights in Conference Room 4 were left on overnight after the room was vacated."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T05:01:34.479941+00:00",
+    "test_id": "HOLD-03",
+    "prompt_version": "v3",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"WASTE_RECYCLING\",\n  \"urgency\": \"MEDIUM\",\n  \"sentiment\": \"NEGATIVE\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Facilities Management\",\n  \"escalation_reason\": \"None\",\n  \"data_sensitivity_risk\": \"LOW\",\n  \"brief_summary\": \"The recycling container is overflowing, causing paper and bottles to spill onto the floor.\"\n}",
+    "parsed": {
+      "issue_category": "WASTE_RECYCLING",
+      "urgency": "MEDIUM",
+      "sentiment": "NEGATIVE",
+      "followup_required": "Y",
+      "recommended_team": "Facilities Management",
+      "escalation_reason": "None",
+      "data_sensitivity_risk": "LOW",
+      "brief_summary": "The recycling container is overflowing, causing paper and bottles to spill onto the floor."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T05:01:39.464994+00:00",
+    "test_id": "HOLD-04",
+    "prompt_version": "v3",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"ACCESSIBILITY\",\n  \"urgency\": \"MEDIUM\",\n  \"sentiment\": \"NEUTRAL\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Facilities Management\",\n  \"escalation_reason\": \"None\",\n  \"data_sensitivity_risk\": \"LOW\",\n  \"brief_summary\": \"The step-free ramp at the west entrance is slippery after cleaning while remaining open.\"\n}",
+    "parsed": {
+      "issue_category": "ACCESSIBILITY",
+      "urgency": "MEDIUM",
+      "sentiment": "NEUTRAL",
+      "followup_required": "Y",
+      "recommended_team": "Facilities Management",
+      "escalation_reason": "None",
+      "data_sensitivity_risk": "LOW",
+      "brief_summary": "The step-free ramp at the west entrance is slippery after cleaning while remaining open."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T05:01:43.433247+00:00",
+    "test_id": "HOLD-05",
+    "prompt_version": "v3",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"OTHER\",\n  \"urgency\": \"CRITICAL\",\n  \"sentiment\": \"NEGATIVE\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Environmental Health and Safety\",\n  \"escalation_reason\": \"Chemical spill near an open drain causing breathing irritation to nearby staff, presenting an immediate health hazard.\",\n  \"data_sensitivity_risk\": \"LOW\",\n  \"brief_summary\": \"A cleaning chemical spilled near an open drain, causing breathing irritation for nearby staff.\"\n}",
+    "parsed": {
+      "issue_category": "OTHER",
+      "urgency": "CRITICAL",
+      "sentiment": "NEGATIVE",
+      "followup_required": "Y",
+      "recommended_team": "Environmental Health and Safety",
+      "escalation_reason": "Chemical spill near an open drain causing breathing irritation to nearby staff, presenting an immediate health hazard.",
+      "data_sensitivity_risk": "LOW",
+      "brief_summary": "A cleaning chemical spilled near an open drain, causing breathing irritation for nearby staff."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T05:01:48.208038+00:00",
+    "test_id": "HOLD-06",
+    "prompt_version": "v3",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"WATER_LEAK\",\n  \"urgency\": \"HIGH\",\n  \"sentiment\": \"NEUTRAL\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Facilities and Maintenance\",\n  \"escalation_reason\": \"Water is flowing through a ceiling tile directly above an electrical distribution panel, presenting a significant electrical and water damage hazard.\",\n  \"data_sensitivity_risk\": \"LOW\",\n  \"brief_summary\": \"Water is flowing through a ceiling tile above an electrical distribution panel.\"\n}",
+    "parsed": {
+      "issue_category": "WATER_LEAK",
+      "urgency": "HIGH",
+      "sentiment": "NEUTRAL",
+      "followup_required": "Y",
+      "recommended_team": "Facilities and Maintenance",
+      "escalation_reason": "Water is flowing through a ceiling tile directly above an electrical distribution panel, presenting a significant electrical and water damage hazard.",
+      "data_sensitivity_risk": "LOW",
+      "brief_summary": "Water is flowing through a ceiling tile above an electrical distribution panel."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T05:01:53.179340+00:00",
+    "test_id": "HOLD-07",
+    "prompt_version": "v3",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"OTHER\",\n  \"urgency\": \"LOW\",\n  \"sentiment\": \"NEUTRAL\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Administration\",\n  \"escalation_reason\": \"None\",\n  \"data_sensitivity_risk\": \"LOW\",\n  \"brief_summary\": \"The printer in the administration office has run out of paper and needs a refill.\"\n}",
+    "parsed": {
+      "issue_category": "OTHER",
+      "urgency": "LOW",
+      "sentiment": "NEUTRAL",
+      "followup_required": "Y",
+      "recommended_team": "Administration",
+      "escalation_reason": "None",
+      "data_sensitivity_risk": "LOW",
+      "brief_summary": "The printer in the administration office has run out of paper and needs a refill."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T05:01:57.149824+00:00",
+    "test_id": "HOLD-08",
+    "prompt_version": "v3",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"OTHER\",\n  \"urgency\": \"HIGH\",\n  \"sentiment\": \"NEGATIVE\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Human Resources / Data Privacy\",\n  \"escalation_reason\": \"Sensitive employee medical accommodation details exposed publicly on a noticeboard.\",\n  \"data_sensitivity_risk\": \"HIGH\",\n  \"brief_summary\": \"Employee medical accommodation details were accidentally displayed on a public noticeboard and need removal.\"\n}",
+    "parsed": {
+      "issue_category": "OTHER",
+      "urgency": "HIGH",
+      "sentiment": "NEGATIVE",
+      "followup_required": "Y",
+      "recommended_team": "Human Resources / Data Privacy",
+      "escalation_reason": "Sensitive employee medical accommodation details exposed publicly on a noticeboard.",
+      "data_sensitivity_risk": "HIGH",
+      "brief_summary": "Employee medical accommodation details were accidentally displayed on a public noticeboard and need removal."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T05:02:02.603016+00:00",
+    "test_id": "NEW-01",
+    "prompt_version": "v3",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"SUSTAINABLE_PROCUREMENT\",\n  \"urgency\": \"LOW\",\n  \"sentiment\": \"NEUTRAL\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Procurement Team\",\n  \"escalation_reason\": \"None\",\n  \"data_sensitivity_risk\": \"LOW\",\n  \"brief_summary\": \"Employee reported a concern that a supplier may not meet the company sustainability policy.\"\n}",
+    "parsed": {
+      "issue_category": "SUSTAINABLE_PROCUREMENT",
+      "urgency": "LOW",
+      "sentiment": "NEUTRAL",
+      "followup_required": "Y",
+      "recommended_team": "Procurement Team",
+      "escalation_reason": "None",
+      "data_sensitivity_risk": "LOW",
+      "brief_summary": "Employee reported a concern that a supplier may not meet the company sustainability policy."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T05:02:06.348788+00:00",
+    "test_id": "NEW-02",
+    "prompt_version": "v3",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"WASTE_RECYCLING\",\n  \"urgency\": \"LOW\",\n  \"sentiment\": \"NEGATIVE\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Facilities Management\",\n  \"escalation_reason\": \"None\",\n  \"data_sensitivity_risk\": \"LOW\",\n  \"brief_summary\": \"Recycling bins are contaminated and not being checked.\"\n}",
+    "parsed": {
+      "issue_category": "WASTE_RECYCLING",
+      "urgency": "LOW",
+      "sentiment": "NEGATIVE",
+      "followup_required": "Y",
+      "recommended_team": "Facilities Management",
+      "escalation_reason": "None",
+      "data_sensitivity_risk": "LOW",
+      "brief_summary": "Recycling bins are contaminated and not being checked."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T05:02:11.069178+00:00",
+    "test_id": "NEW-03",
+    "prompt_version": "v3",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"OTHER\",\n  \"urgency\": \"HIGH\",\n  \"sentiment\": \"NEGATIVE\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Compliance and Ethics\",\n  \"escalation_reason\": \"Request to omit diesel generator figures from emissions report.\",\n  \"data_sensitivity_risk\": \"HIGH\",\n  \"brief_summary\": \"Employee reports manager asked to omit diesel generator figures from the quarterly emissions report and requested anonymity.\"\n}",
+    "parsed": {
+      "issue_category": "OTHER",
+      "urgency": "HIGH",
+      "sentiment": "NEGATIVE",
+      "followup_required": "Y",
+      "recommended_team": "Compliance and Ethics",
+      "escalation_reason": "Request to omit diesel generator figures from emissions report.",
+      "data_sensitivity_risk": "HIGH",
+      "brief_summary": "Employee reports manager asked to omit diesel generator figures from the quarterly emissions report and requested anonymity."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T05:02:15.068124+00:00",
+    "test_id": "ESG-01",
+    "prompt_version": "v4",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"WATER_LEAK\",\n  \"urgency\": \"HIGH\",\n  \"sentiment\": \"NEUTRAL\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Facilities Management\",\n  \"escalation_reason\": \"Ongoing resource loss and water leak in Building C.\",\n  \"data_sensitivity_risk\": \"LOW\",\n  \"needs_human_review\": \"N\",\n  \"brief_summary\": \"A water leak has been running all morning in Building C.\"\n}",
+    "parsed": {
+      "issue_category": "WATER_LEAK",
+      "urgency": "HIGH",
+      "sentiment": "NEUTRAL",
+      "followup_required": "Y",
+      "recommended_team": "Facilities Management",
+      "escalation_reason": "Ongoing resource loss and water leak in Building C.",
+      "data_sensitivity_risk": "LOW",
+      "needs_human_review": "N",
+      "brief_summary": "A water leak has been running all morning in Building C."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T05:02:19.612001+00:00",
+    "test_id": "ESG-02",
+    "prompt_version": "v4",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"ENERGY_WASTE\",\n  \"urgency\": \"MEDIUM\",\n  \"sentiment\": \"NEUTRAL\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Facilities Management\",\n  \"escalation_reason\": null,\n  \"data_sensitivity_risk\": \"LOW\",\n  \"needs_human_review\": \"N\",\n  \"brief_summary\": \"The air conditioning is running overnight in an empty office.\"\n}",
+    "parsed": {
+      "issue_category": "ENERGY_WASTE",
+      "urgency": "MEDIUM",
+      "sentiment": "NEUTRAL",
+      "followup_required": "Y",
+      "recommended_team": "Facilities Management",
+      "escalation_reason": null,
+      "data_sensitivity_risk": "LOW",
+      "needs_human_review": "N",
+      "brief_summary": "The air conditioning is running overnight in an empty office."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T05:02:25.173569+00:00",
+    "test_id": "ESG-03",
+    "prompt_version": "v4",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"ACCESSIBILITY\",\n  \"urgency\": \"HIGH\",\n  \"sentiment\": \"NEUTRAL\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Facilities Management + Accessibility & Inclusion\",\n  \"escalation_reason\": \"Someone is currently unable to access a building due to a blocked accessible entrance.\",\n  \"data_sensitivity_risk\": \"LOW\",\n  \"needs_human_review\": \"N\",\n  \"brief_summary\": \"The accessible entrance near the main building has been blocked for two days.\"\n}",
+    "parsed": {
+      "issue_category": "ACCESSIBILITY",
+      "urgency": "HIGH",
+      "sentiment": "NEUTRAL",
+      "followup_required": "Y",
+      "recommended_team": "Facilities Management + Accessibility & Inclusion",
+      "escalation_reason": "Someone is currently unable to access a building due to a blocked accessible entrance.",
+      "data_sensitivity_risk": "LOW",
+      "needs_human_review": "N",
+      "brief_summary": "The accessible entrance near the main building has been blocked for two days."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T05:02:30.085438+00:00",
+    "test_id": "ESG-04",
+    "prompt_version": "v4",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"WASTE_RECYCLING\",\n  \"urgency\": \"LOW\",\n  \"sentiment\": \"NEUTRAL\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Facilities Management\",\n  \"escalation_reason\": null,\n  \"data_sensitivity_risk\": \"LOW\",\n  \"needs_human_review\": \"N\",\n  \"brief_summary\": \"The recycling bin in Meeting Room 2 is nearly full without overflowing.\"\n}",
+    "parsed": {
+      "issue_category": "WASTE_RECYCLING",
+      "urgency": "LOW",
+      "sentiment": "NEUTRAL",
+      "followup_required": "Y",
+      "recommended_team": "Facilities Management",
+      "escalation_reason": null,
+      "data_sensitivity_risk": "LOW",
+      "needs_human_review": "N",
+      "brief_summary": "The recycling bin in Meeting Room 2 is nearly full without overflowing."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T05:02:33.080067+00:00",
+    "test_id": "ESG-05",
+    "prompt_version": "v4",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"OTHER\",\n  \"urgency\": \"CRITICAL\",\n  \"sentiment\": \"NEGATIVE\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Emergency Response + WHS\",\n  \"escalation_reason\": \"Credible risk to life or serious injury due to a strong smell of gas with staff still inside.\",\n  \"data_sensitivity_risk\": \"LOW\",\n  \"needs_human_review\": \"N\",\n  \"brief_summary\": \"A strong smell of gas is coming from the kitchen while staff are still inside.\"\n}",
+    "parsed": {
+      "issue_category": "OTHER",
+      "urgency": "CRITICAL",
+      "sentiment": "NEGATIVE",
+      "followup_required": "Y",
+      "recommended_team": "Emergency Response + WHS",
+      "escalation_reason": "Credible risk to life or serious injury due to a strong smell of gas with staff still inside.",
+      "data_sensitivity_risk": "LOW",
+      "needs_human_review": "N",
+      "brief_summary": "A strong smell of gas is coming from the kitchen while staff are still inside."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T05:02:37.697076+00:00",
+    "test_id": "ESG-06",
+    "prompt_version": "v4",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"OTHER\",\n  \"urgency\": \"LOW\",\n  \"sentiment\": \"NEUTRAL\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Service Desk\",\n  \"escalation_reason\": null,\n  \"data_sensitivity_risk\": \"LOW\",\n  \"needs_human_review\": \"Y\",\n  \"brief_summary\": \"An employee reported a vague problem in the building and requested it be sorted out.\"\n}",
+    "parsed": {
+      "issue_category": "OTHER",
+      "urgency": "LOW",
+      "sentiment": "NEUTRAL",
+      "followup_required": "Y",
+      "recommended_team": "Service Desk",
+      "escalation_reason": null,
+      "data_sensitivity_risk": "LOW",
+      "needs_human_review": "Y",
+      "brief_summary": "An employee reported a vague problem in the building and requested it be sorted out."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T05:02:42.304880+00:00",
+    "test_id": "ESG-07",
+    "prompt_version": "v4",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"OTHER\",\n  \"urgency\": \"LOW\",\n  \"sentiment\": \"NEUTRAL\",\n  \"followup_required\": \"N\",\n  \"recommended_team\": \"Service Desk\",\n  \"escalation_reason\": null,\n  \"data_sensitivity_risk\": \"LOW\",\n  \"needs_human_review\": \"N\",\n  \"brief_summary\": \"The employee is asking for the minutes from yesterday's meeting.\"\n}",
+    "parsed": {
+      "issue_category": "OTHER",
+      "urgency": "LOW",
+      "sentiment": "NEUTRAL",
+      "followup_required": "N",
+      "recommended_team": "Service Desk",
+      "escalation_reason": null,
+      "data_sensitivity_risk": "LOW",
+      "needs_human_review": "N",
+      "brief_summary": "The employee is asking for the minutes from yesterday's meeting."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T05:02:46.699615+00:00",
+    "test_id": "ESG-08",
+    "prompt_version": "v4",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"ACCESSIBILITY\",\n  \"urgency\": \"HIGH\",\n  \"sentiment\": \"NEUTRAL\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Facilities Management + Accessibility & Inclusion\",\n  \"escalation_reason\": \"Someone is currently unable to access a building due to a blocked accessible entrance.\",\n  \"data_sensitivity_risk\": \"LOW\",\n  \"needs_human_review\": \"N\",\n  \"brief_summary\": \"The accessible entrance is blocked, preventing a wheelchair user from entering.\"\n}",
+    "parsed": {
+      "issue_category": "ACCESSIBILITY",
+      "urgency": "HIGH",
+      "sentiment": "NEUTRAL",
+      "followup_required": "Y",
+      "recommended_team": "Facilities Management + Accessibility & Inclusion",
+      "escalation_reason": "Someone is currently unable to access a building due to a blocked accessible entrance.",
+      "data_sensitivity_risk": "LOW",
+      "needs_human_review": "N",
+      "brief_summary": "The accessible entrance is blocked, preventing a wheelchair user from entering."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T05:02:51.660288+00:00",
+    "test_id": "HOLD-01",
+    "prompt_version": "v4",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"WATER_LEAK\",\n  \"urgency\": \"MEDIUM\",\n  \"sentiment\": \"NEUTRAL\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Facilities Management\",\n  \"escalation_reason\": null,\n  \"data_sensitivity_risk\": \"LOW\",\n  \"needs_human_review\": \"N\",\n  \"brief_summary\": \"Water is dripping beneath the kitchenette sink and formed a small puddle.\"\n}",
+    "parsed": {
+      "issue_category": "WATER_LEAK",
+      "urgency": "MEDIUM",
+      "sentiment": "NEUTRAL",
+      "followup_required": "Y",
+      "recommended_team": "Facilities Management",
+      "escalation_reason": null,
+      "data_sensitivity_risk": "LOW",
+      "needs_human_review": "N",
+      "brief_summary": "Water is dripping beneath the kitchenette sink and formed a small puddle."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T05:02:55.591740+00:00",
+    "test_id": "HOLD-02",
+    "prompt_version": "v4",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"ENERGY_WASTE\",\n  \"urgency\": \"LOW\",\n  \"sentiment\": \"NEUTRAL\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Facilities Management\",\n  \"escalation_reason\": null,\n  \"data_sensitivity_risk\": \"LOW\",\n  \"needs_human_review\": \"N\",\n  \"brief_summary\": \"The lights in Conference Room 4 were left on after everyone left for the night.\"\n}",
+    "parsed": {
+      "issue_category": "ENERGY_WASTE",
+      "urgency": "LOW",
+      "sentiment": "NEUTRAL",
+      "followup_required": "Y",
+      "recommended_team": "Facilities Management",
+      "escalation_reason": null,
+      "data_sensitivity_risk": "LOW",
+      "needs_human_review": "N",
+      "brief_summary": "The lights in Conference Room 4 were left on after everyone left for the night."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T05:03:00.018314+00:00",
+    "test_id": "HOLD-03",
+    "prompt_version": "v4",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"WASTE_RECYCLING\",\n  \"urgency\": \"MEDIUM\",\n  \"sentiment\": \"NEUTRAL\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Facilities Management\",\n  \"escalation_reason\": null,\n  \"data_sensitivity_risk\": \"LOW\",\n  \"needs_human_review\": \"N\",\n  \"brief_summary\": \"The recycling container is overflowing and spilling paper and bottles onto the floor.\"\n}",
+    "parsed": {
+      "issue_category": "WASTE_RECYCLING",
+      "urgency": "MEDIUM",
+      "sentiment": "NEUTRAL",
+      "followup_required": "Y",
+      "recommended_team": "Facilities Management",
+      "escalation_reason": null,
+      "data_sensitivity_risk": "LOW",
+      "needs_human_review": "N",
+      "brief_summary": "The recycling container is overflowing and spilling paper and bottles onto the floor."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T05:03:04.505293+00:00",
+    "test_id": "HOLD-04",
+    "prompt_version": "v4",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"ACCESSIBILITY\",\n  \"urgency\": \"HIGH\",\n  \"sentiment\": \"NEUTRAL\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Facilities Management + Accessibility & Inclusion\",\n  \"escalation_reason\": \"Someone is currently facing potential barriers or hazards affecting step-free access.\",\n  \"data_sensitivity_risk\": \"LOW\",\n  \"needs_human_review\": \"N\",\n  \"brief_summary\": \"The step-free ramp at the west entrance is slippery after cleaning while remaining open.\"\n}",
+    "parsed": {
+      "issue_category": "ACCESSIBILITY",
+      "urgency": "HIGH",
+      "sentiment": "NEUTRAL",
+      "followup_required": "Y",
+      "recommended_team": "Facilities Management + Accessibility & Inclusion",
+      "escalation_reason": "Someone is currently facing potential barriers or hazards affecting step-free access.",
+      "data_sensitivity_risk": "LOW",
+      "needs_human_review": "N",
+      "brief_summary": "The step-free ramp at the west entrance is slippery after cleaning while remaining open."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T05:03:09.209318+00:00",
+    "test_id": "HOLD-05",
+    "prompt_version": "v4",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"OTHER\",\n  \"urgency\": \"CRITICAL\",\n  \"sentiment\": \"NEGATIVE\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Emergency Response + WHS\",\n  \"escalation_reason\": \"Chemical spill with staff reporting breathing irritation poses an immediate health risk.\",\n  \"data_sensitivity_risk\": \"MEDIUM\",\n  \"needs_human_review\": \"N\",\n  \"brief_summary\": \"A cleaning chemical spilled near an open drain and nearby staff are reporting breathing irritation.\"\n}",
+    "parsed": {
+      "issue_category": "OTHER",
+      "urgency": "CRITICAL",
+      "sentiment": "NEGATIVE",
+      "followup_required": "Y",
+      "recommended_team": "Emergency Response + WHS",
+      "escalation_reason": "Chemical spill with staff reporting breathing irritation poses an immediate health risk.",
+      "data_sensitivity_risk": "MEDIUM",
+      "needs_human_review": "N",
+      "brief_summary": "A cleaning chemical spilled near an open drain and nearby staff are reporting breathing irritation."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T05:03:13.939739+00:00",
+    "test_id": "HOLD-06",
+    "prompt_version": "v4",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"WATER_LEAK\",\n  \"urgency\": \"CRITICAL\",\n  \"sentiment\": \"NEUTRAL\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Facilities Management\",\n  \"escalation_reason\": \"Water near electrical equipment poses a critical risk.\",\n  \"data_sensitivity_risk\": \"LOW\",\n  \"needs_human_review\": \"N\",\n  \"brief_summary\": \"Water is flowing through a ceiling tile above an electrical distribution panel.\"\n}",
+    "parsed": {
+      "issue_category": "WATER_LEAK",
+      "urgency": "CRITICAL",
+      "sentiment": "NEUTRAL",
+      "followup_required": "Y",
+      "recommended_team": "Facilities Management",
+      "escalation_reason": "Water near electrical equipment poses a critical risk.",
+      "data_sensitivity_risk": "LOW",
+      "needs_human_review": "N",
+      "brief_summary": "Water is flowing through a ceiling tile above an electrical distribution panel."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T05:03:18.263300+00:00",
+    "test_id": "HOLD-07",
+    "prompt_version": "v4",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"OTHER\",\n  \"urgency\": \"LOW\",\n  \"sentiment\": \"NEUTRAL\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Service Desk\",\n  \"escalation_reason\": null,\n  \"data_sensitivity_risk\": \"LOW\",\n  \"needs_human_review\": \"N\",\n  \"brief_summary\": \"The printer in the administration office has run out of paper and needs a refill.\"\n}",
+    "parsed": {
+      "issue_category": "OTHER",
+      "urgency": "LOW",
+      "sentiment": "NEUTRAL",
+      "followup_required": "Y",
+      "recommended_team": "Service Desk",
+      "escalation_reason": null,
+      "data_sensitivity_risk": "LOW",
+      "needs_human_review": "N",
+      "brief_summary": "The printer in the administration office has run out of paper and needs a refill."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T05:03:23.335520+00:00",
+    "test_id": "HOLD-08",
+    "prompt_version": "v4",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"OTHER\",\n  \"urgency\": \"HIGH\",\n  \"sentiment\": \"NEUTRAL\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Privacy Officer\",\n  \"escalation_reason\": \"Exposure of sensitive personal and medical information on a public noticeboard\",\n  \"data_sensitivity_risk\": \"HIGH\",\n  \"needs_human_review\": \"Y\",\n  \"brief_summary\": \"An employee's medical accommodation details were accidentally displayed on a public noticeboard.\"\n}",
+    "parsed": {
+      "issue_category": "OTHER",
+      "urgency": "HIGH",
+      "sentiment": "NEUTRAL",
+      "followup_required": "Y",
+      "recommended_team": "Privacy Officer",
+      "escalation_reason": "Exposure of sensitive personal and medical information on a public noticeboard",
+      "data_sensitivity_risk": "HIGH",
+      "needs_human_review": "Y",
+      "brief_summary": "An employee's medical accommodation details were accidentally displayed on a public noticeboard."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T05:03:27.348611+00:00",
+    "test_id": "NEW-01",
+    "prompt_version": "v4",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"SUSTAINABLE_PROCUREMENT\",\n  \"urgency\": \"LOW\",\n  \"sentiment\": \"NEUTRAL\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Procurement & Supplier Sustainability\",\n  \"escalation_reason\": null,\n  \"data_sensitivity_risk\": \"LOW\",\n  \"needs_human_review\": \"N\",\n  \"brief_summary\": \"An employee reported that one of their suppliers may not meet the organization's sustainability policy.\"\n}",
+    "parsed": {
+      "issue_category": "SUSTAINABLE_PROCUREMENT",
+      "urgency": "LOW",
+      "sentiment": "NEUTRAL",
+      "followup_required": "Y",
+      "recommended_team": "Procurement & Supplier Sustainability",
+      "escalation_reason": null,
+      "data_sensitivity_risk": "LOW",
+      "needs_human_review": "N",
+      "brief_summary": "An employee reported that one of their suppliers may not meet the organization's sustainability policy."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T05:03:33.156439+00:00",
+    "test_id": "NEW-02",
+    "prompt_version": "v4",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"WASTE_RECYCLING\",\n  \"urgency\": \"LOW\",\n  \"sentiment\": \"NEGATIVE\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Facilities Management\",\n  \"escalation_reason\": null,\n  \"data_sensitivity_risk\": \"LOW\",\n  \"needs_human_review\": \"N\",\n  \"brief_summary\": \"The recycling bins are contaminated again and lack checking.\"\n}",
+    "parsed": {
+      "issue_category": "WASTE_RECYCLING",
+      "urgency": "LOW",
+      "sentiment": "NEGATIVE",
+      "followup_required": "Y",
+      "recommended_team": "Facilities Management",
+      "escalation_reason": null,
+      "data_sensitivity_risk": "LOW",
+      "needs_human_review": "N",
+      "brief_summary": "The recycling bins are contaminated again and lack checking."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T05:03:36.604113+00:00",
+    "test_id": "NEW-03",
+    "prompt_version": "v4",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"OTHER\",\n  \"urgency\": \"HIGH\",\n  \"sentiment\": \"NEGATIVE\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Governance, Risk & Compliance (confidential)\",\n  \"escalation_reason\": \"Reported manipulation of emissions data and request for confidentiality.\",\n  \"data_sensitivity_risk\": \"HIGH\",\n  \"needs_human_review\": \"Y\",\n  \"brief_summary\": \"An employee reported that their manager asked to omit diesel generator figures from the quarterly emissions report and requested anonymity.\"\n}",
+    "parsed": {
+      "issue_category": "OTHER",
+      "urgency": "HIGH",
+      "sentiment": "NEGATIVE",
+      "followup_required": "Y",
+      "recommended_team": "Governance, Risk & Compliance (confidential)",
+      "escalation_reason": "Reported manipulation of emissions data and request for confidentiality.",
+      "data_sensitivity_risk": "HIGH",
+      "needs_human_review": "Y",
+      "brief_summary": "An employee reported that their manager asked to omit diesel generator figures from the quarterly emissions report and requested anonymity."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T05:04:28.959909+00:00",
+    "test_id": "ESG-06",
+    "prompt_version": "v4",
+    "repeat": 1,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"OTHER\",\n  \"urgency\": \"LOW\",\n  \"sentiment\": \"NEUTRAL\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Service Desk\",\n  \"escalation_reason\": null,\n  \"data_sensitivity_risk\": \"LOW\",\n  \"needs_human_review\": \"Y\",\n  \"brief_summary\": \"The employee reported a vague problem in the building and asked for it to be sorted out.\"\n}",
+    "parsed": {
+      "issue_category": "OTHER",
+      "urgency": "LOW",
+      "sentiment": "NEUTRAL",
+      "followup_required": "Y",
+      "recommended_team": "Service Desk",
+      "escalation_reason": null,
+      "data_sensitivity_risk": "LOW",
+      "needs_human_review": "Y",
+      "brief_summary": "The employee reported a vague problem in the building and asked for it to be sorted out."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T05:04:30.437047+00:00",
+    "test_id": "ESG-06",
+    "prompt_version": "v4",
+    "repeat": 2,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"OTHER\",\n  \"urgency\": \"LOW\",\n  \"sentiment\": \"NEUTRAL\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Service Desk\",\n  \"escalation_reason\": null,\n  \"data_sensitivity_risk\": \"LOW\",\n  \"needs_human_review\": \"Y\",\n  \"brief_summary\": \"An employee reported an unspecified problem in the building and requested it be resolved.\"\n}",
+    "parsed": {
+      "issue_category": "OTHER",
+      "urgency": "LOW",
+      "sentiment": "NEUTRAL",
+      "followup_required": "Y",
+      "recommended_team": "Service Desk",
+      "escalation_reason": null,
+      "data_sensitivity_risk": "LOW",
+      "needs_human_review": "Y",
+      "brief_summary": "An employee reported an unspecified problem in the building and requested it be resolved."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T05:04:34.610893+00:00",
+    "test_id": "ESG-06",
+    "prompt_version": "v4",
+    "repeat": 3,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"OTHER\",\n  \"urgency\": \"LOW\",\n  \"sentiment\": \"NEUTRAL\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Service Desk\",\n  \"escalation_reason\": null,\n  \"data_sensitivity_risk\": \"LOW\",\n  \"needs_human_review\": \"Y\",\n  \"brief_summary\": \"An employee reported an unspecified problem in the building and requested it to be sorted out.\"\n}",
+    "parsed": {
+      "issue_category": "OTHER",
+      "urgency": "LOW",
+      "sentiment": "NEUTRAL",
+      "followup_required": "Y",
+      "recommended_team": "Service Desk",
+      "escalation_reason": null,
+      "data_sensitivity_risk": "LOW",
+      "needs_human_review": "Y",
+      "brief_summary": "An employee reported an unspecified problem in the building and requested it to be sorted out."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T05:04:38.782020+00:00",
+    "test_id": "HOLD-04",
+    "prompt_version": "v4",
+    "repeat": 1,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"ACCESSIBILITY\",\n  \"urgency\": \"MEDIUM\",\n  \"sentiment\": \"NEUTRAL\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Facilities Management + Accessibility & Inclusion\",\n  \"escalation_reason\": null,\n  \"data_sensitivity_risk\": \"LOW\",\n  \"needs_human_review\": \"N\",\n  \"brief_summary\": \"The step-free ramp at the west entrance is currently slippery after cleaning while remaining open.\"\n}",
+    "parsed": {
+      "issue_category": "ACCESSIBILITY",
+      "urgency": "MEDIUM",
+      "sentiment": "NEUTRAL",
+      "followup_required": "Y",
+      "recommended_team": "Facilities Management + Accessibility & Inclusion",
+      "escalation_reason": null,
+      "data_sensitivity_risk": "LOW",
+      "needs_human_review": "N",
+      "brief_summary": "The step-free ramp at the west entrance is currently slippery after cleaning while remaining open."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T05:04:43.222036+00:00",
+    "test_id": "HOLD-04",
+    "prompt_version": "v4",
+    "repeat": 2,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"ACCESSIBILITY\",\n  \"urgency\": \"MEDIUM\",\n  \"sentiment\": \"NEUTRAL\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Facilities Management + Accessibility & Inclusion\",\n  \"escalation_reason\": null,\n  \"data_sensitivity_risk\": \"LOW\",\n  \"needs_human_review\": \"N\",\n  \"brief_summary\": \"The step-free ramp at the west entrance is currently slippery following cleaning while remaining open.\"\n}",
+    "parsed": {
+      "issue_category": "ACCESSIBILITY",
+      "urgency": "MEDIUM",
+      "sentiment": "NEUTRAL",
+      "followup_required": "Y",
+      "recommended_team": "Facilities Management + Accessibility & Inclusion",
+      "escalation_reason": null,
+      "data_sensitivity_risk": "LOW",
+      "needs_human_review": "N",
+      "brief_summary": "The step-free ramp at the west entrance is currently slippery following cleaning while remaining open."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T05:04:47.723675+00:00",
+    "test_id": "HOLD-04",
+    "prompt_version": "v4",
+    "repeat": 3,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"ACCESSIBILITY\",\n  \"urgency\": \"HIGH\",\n  \"sentiment\": \"NEUTRAL\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Facilities Management + Accessibility & Inclusion\",\n  \"escalation_reason\": \"Slippery step-free ramp presents a potential physical access and safety barrier at the west entrance.\",\n  \"data_sensitivity_risk\": \"LOW\",\n  \"needs_human_review\": \"N\",\n  \"brief_summary\": \"The step-free ramp at the west entrance is slippery after cleaning while remaining open.\"\n}",
+    "parsed": {
+      "issue_category": "ACCESSIBILITY",
+      "urgency": "HIGH",
+      "sentiment": "NEUTRAL",
+      "followup_required": "Y",
+      "recommended_team": "Facilities Management + Accessibility & Inclusion",
+      "escalation_reason": "Slippery step-free ramp presents a potential physical access and safety barrier at the west entrance.",
+      "data_sensitivity_risk": "LOW",
+      "needs_human_review": "N",
+      "brief_summary": "The step-free ramp at the west entrance is slippery after cleaning while remaining open."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T05:04:52.197368+00:00",
+    "test_id": "HOLD-06",
+    "prompt_version": "v4",
+    "repeat": 1,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"WATER_LEAK\",\n  \"urgency\": \"CRITICAL\",\n  \"sentiment\": \"NEUTRAL\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Facilities Management\",\n  \"escalation_reason\": \"Water is flowing through a ceiling tile above an electrical distribution panel.\",\n  \"data_sensitivity_risk\": \"LOW\",\n  \"needs_human_review\": \"N\",\n  \"brief_summary\": \"Water is flowing through a ceiling tile above an electrical distribution panel.\"\n}",
+    "parsed": {
+      "issue_category": "WATER_LEAK",
+      "urgency": "CRITICAL",
+      "sentiment": "NEUTRAL",
+      "followup_required": "Y",
+      "recommended_team": "Facilities Management",
+      "escalation_reason": "Water is flowing through a ceiling tile above an electrical distribution panel.",
+      "data_sensitivity_risk": "LOW",
+      "needs_human_review": "N",
+      "brief_summary": "Water is flowing through a ceiling tile above an electrical distribution panel."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T05:04:56.750403+00:00",
+    "test_id": "HOLD-06",
+    "prompt_version": "v4",
+    "repeat": 2,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"WATER_LEAK\",\n  \"urgency\": \"CRITICAL\",\n  \"sentiment\": \"NEUTRAL\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Facilities Management\",\n  \"escalation_reason\": \"Water is flowing through a ceiling tile above an electrical distribution panel.\",\n  \"data_sensitivity_risk\": \"LOW\",\n  \"needs_human_review\": \"N\",\n  \"brief_summary\": \"Water is flowing through a ceiling tile above an electrical distribution panel.\"\n}",
+    "parsed": {
+      "issue_category": "WATER_LEAK",
+      "urgency": "CRITICAL",
+      "sentiment": "NEUTRAL",
+      "followup_required": "Y",
+      "recommended_team": "Facilities Management",
+      "escalation_reason": "Water is flowing through a ceiling tile above an electrical distribution panel.",
+      "data_sensitivity_risk": "LOW",
+      "needs_human_review": "N",
+      "brief_summary": "Water is flowing through a ceiling tile above an electrical distribution panel."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T05:05:01.232951+00:00",
+    "test_id": "HOLD-06",
+    "prompt_version": "v4",
+    "repeat": 3,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"WATER_LEAK\",\n  \"urgency\": \"CRITICAL\",\n  \"sentiment\": \"NEUTRAL\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Facilities Management\",\n  \"escalation_reason\": \"Water near electrical equipment poses a credible risk to safety and serious harm.\",\n  \"data_sensitivity_risk\": \"LOW\",\n  \"needs_human_review\": \"N\",\n  \"brief_summary\": \"Water is flowing through a ceiling tile above an electrical distribution panel.\"\n}",
+    "parsed": {
+      "issue_category": "WATER_LEAK",
+      "urgency": "CRITICAL",
+      "sentiment": "NEUTRAL",
+      "followup_required": "Y",
+      "recommended_team": "Facilities Management",
+      "escalation_reason": "Water near electrical equipment poses a credible risk to safety and serious harm.",
+      "data_sensitivity_risk": "LOW",
+      "needs_human_review": "N",
+      "brief_summary": "Water is flowing through a ceiling tile above an electrical distribution panel."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T05:05:05.689314+00:00",
+    "test_id": "HOLD-08",
+    "prompt_version": "v4",
+    "repeat": 1,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"OTHER\",\n  \"urgency\": \"HIGH\",\n  \"sentiment\": \"NEUTRAL\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Privacy Officer\",\n  \"escalation_reason\": \"Exposure of sensitive personal and medical accommodation details on a public noticeboard.\",\n  \"data_sensitivity_risk\": \"HIGH\",\n  \"needs_human_review\": \"Y\",\n  \"brief_summary\": \"An employee's medical accommodation details were accidentally displayed on a public noticeboard and require removal.\"\n}",
+    "parsed": {
+      "issue_category": "OTHER",
+      "urgency": "HIGH",
+      "sentiment": "NEUTRAL",
+      "followup_required": "Y",
+      "recommended_team": "Privacy Officer",
+      "escalation_reason": "Exposure of sensitive personal and medical accommodation details on a public noticeboard.",
+      "data_sensitivity_risk": "HIGH",
+      "needs_human_review": "Y",
+      "brief_summary": "An employee's medical accommodation details were accidentally displayed on a public noticeboard and require removal."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T05:05:10.219117+00:00",
+    "test_id": "HOLD-08",
+    "prompt_version": "v4",
+    "repeat": 2,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"OTHER\",\n  \"urgency\": \"HIGH\",\n  \"sentiment\": \"NEUTRAL\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Privacy Officer\",\n  \"escalation_reason\": \"Exposure of sensitive personal and medical information on a public noticeboard\",\n  \"data_sensitivity_risk\": \"HIGH\",\n  \"needs_human_review\": \"Y\",\n  \"brief_summary\": \"An employee's medical accommodation details were accidentally displayed on a public noticeboard and require removal.\"\n}",
+    "parsed": {
+      "issue_category": "OTHER",
+      "urgency": "HIGH",
+      "sentiment": "NEUTRAL",
+      "followup_required": "Y",
+      "recommended_team": "Privacy Officer",
+      "escalation_reason": "Exposure of sensitive personal and medical information on a public noticeboard",
+      "data_sensitivity_risk": "HIGH",
+      "needs_human_review": "Y",
+      "brief_summary": "An employee's medical accommodation details were accidentally displayed on a public noticeboard and require removal."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T05:05:14.850050+00:00",
+    "test_id": "HOLD-08",
+    "prompt_version": "v4",
+    "repeat": 3,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"OTHER\",\n  \"urgency\": \"HIGH\",\n  \"sentiment\": \"NEGATIVE\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Privacy Officer\",\n  \"escalation_reason\": \"Exposure of sensitive personal and medical accommodation details\",\n  \"data_sensitivity_risk\": \"HIGH\",\n  \"needs_human_review\": \"Y\",\n  \"brief_summary\": \"An employee's medical accommodation details were accidentally displayed on a public noticeboard and require removal.\"\n}",
+    "parsed": {
+      "issue_category": "OTHER",
+      "urgency": "HIGH",
+      "sentiment": "NEGATIVE",
+      "followup_required": "Y",
+      "recommended_team": "Privacy Officer",
+      "escalation_reason": "Exposure of sensitive personal and medical accommodation details",
+      "data_sensitivity_risk": "HIGH",
+      "needs_human_review": "Y",
+      "brief_summary": "An employee's medical accommodation details were accidentally displayed on a public noticeboard and require removal."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T05:05:20.424537+00:00",
+    "test_id": "NEW-03",
+    "prompt_version": "v4",
+    "repeat": 1,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"OTHER\",\n  \"urgency\": \"HIGH\",\n  \"sentiment\": \"NEGATIVE\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Governance, Risk & Compliance (confidential)\",\n  \"escalation_reason\": \"Reporting integrity breach and request for whistleblower confidentiality.\",\n  \"data_sensitivity_risk\": \"HIGH\",\n  \"needs_human_review\": \"Y\",\n  \"brief_summary\": \"An employee reported being asked by their manager to omit diesel generator figures from the quarterly emissions report and requested confidentiality.\"\n}",
+    "parsed": {
+      "issue_category": "OTHER",
+      "urgency": "HIGH",
+      "sentiment": "NEGATIVE",
+      "followup_required": "Y",
+      "recommended_team": "Governance, Risk & Compliance (confidential)",
+      "escalation_reason": "Reporting integrity breach and request for whistleblower confidentiality.",
+      "data_sensitivity_risk": "HIGH",
+      "needs_human_review": "Y",
+      "brief_summary": "An employee reported being asked by their manager to omit diesel generator figures from the quarterly emissions report and requested confidentiality."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T05:05:23.806060+00:00",
+    "test_id": "NEW-03",
+    "prompt_version": "v4",
+    "repeat": 2,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"OTHER\",\n  \"urgency\": \"HIGH\",\n  \"sentiment\": \"NEGATIVE\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Governance, Risk & Compliance (confidential)\",\n  \"escalation_reason\": \"Reporting integrity breach involving instructions to omit emissions data, combined with a request for whistleblower anonymity.\",\n  \"data_sensitivity_risk\": \"HIGH\",\n  \"needs_human_review\": \"Y\",\n  \"brief_summary\": \"An employee reported that their manager asked to leave diesel generator figures out of the quarterly emissions report and requested confidentiality.\"\n}",
+    "parsed": {
+      "issue_category": "OTHER",
+      "urgency": "HIGH",
+      "sentiment": "NEGATIVE",
+      "followup_required": "Y",
+      "recommended_team": "Governance, Risk & Compliance (confidential)",
+      "escalation_reason": "Reporting integrity breach involving instructions to omit emissions data, combined with a request for whistleblower anonymity.",
+      "data_sensitivity_risk": "HIGH",
+      "needs_human_review": "Y",
+      "brief_summary": "An employee reported that their manager asked to leave diesel generator figures out of the quarterly emissions report and requested confidentiality."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T05:05:29.251348+00:00",
+    "test_id": "NEW-03",
+    "prompt_version": "v4",
+    "repeat": 3,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"OTHER\",\n  \"urgency\": \"HIGH\",\n  \"sentiment\": \"NEGATIVE\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Governance, Risk & Compliance (confidential)\",\n  \"escalation_reason\": \"Reporting integrity breach and request for whistleblower confidentiality.\",\n  \"data_sensitivity_risk\": \"HIGH\",\n  \"needs_human_review\": \"Y\",\n  \"brief_summary\": \"An employee reported that their manager asked to exclude diesel generator figures from the quarterly emissions report and requested confidentiality.\"\n}",
+    "parsed": {
+      "issue_category": "OTHER",
+      "urgency": "HIGH",
+      "sentiment": "NEGATIVE",
+      "followup_required": "Y",
+      "recommended_team": "Governance, Risk & Compliance (confidential)",
+      "escalation_reason": "Reporting integrity breach and request for whistleblower confidentiality.",
+      "data_sensitivity_risk": "HIGH",
+      "needs_human_review": "Y",
+      "brief_summary": "An employee reported that their manager asked to exclude diesel generator figures from the quarterly emissions report and requested confidentiality."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T05:05:33.267004+00:00",
+    "test_id": "B1-formal",
+    "prompt_version": "v4",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"WATER_LEAK\",\n  \"urgency\": \"HIGH\",\n  \"sentiment\": \"NEGATIVE\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Facilities Management\",\n  \"escalation_reason\": \"Significant water leak spreading into the corridor requires urgent intervention to prevent property damage.\",\n  \"data_sensitivity_risk\": \"LOW\",\n  \"needs_human_review\": \"N\",\n  \"brief_summary\": \"A significant water leak in the level 2 bathroom is spreading into the corridor.\"\n}",
+    "parsed": {
+      "issue_category": "WATER_LEAK",
+      "urgency": "HIGH",
+      "sentiment": "NEGATIVE",
+      "followup_required": "Y",
+      "recommended_team": "Facilities Management",
+      "escalation_reason": "Significant water leak spreading into the corridor requires urgent intervention to prevent property damage.",
+      "data_sensitivity_risk": "LOW",
+      "needs_human_review": "N",
+      "brief_summary": "A significant water leak in the level 2 bathroom is spreading into the corridor."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T05:05:38.398235+00:00",
+    "test_id": "B1-informal",
+    "prompt_version": "v4",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"WATER_LEAK\",\n  \"urgency\": \"HIGH\",\n  \"sentiment\": \"NEGATIVE\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Facilities Management\",\n  \"escalation_reason\": \"Water is actively flooding the hallway from level 2 toilets and requires urgent containment.\",\n  \"data_sensitivity_risk\": \"LOW\",\n  \"needs_human_review\": \"N\",\n  \"brief_summary\": \"Water from the level 2 toilets is leaking into the hallway.\"\n}",
+    "parsed": {
+      "issue_category": "WATER_LEAK",
+      "urgency": "HIGH",
+      "sentiment": "NEGATIVE",
+      "followup_required": "Y",
+      "recommended_team": "Facilities Management",
+      "escalation_reason": "Water is actively flooding the hallway from level 2 toilets and requires urgent containment.",
+      "data_sensitivity_risk": "LOW",
+      "needs_human_review": "N",
+      "brief_summary": "Water from the level 2 toilets is leaking into the hallway."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T05:05:41.679393+00:00",
+    "test_id": "B2-formal",
+    "prompt_version": "v4",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"ACCESSIBILITY\",\n  \"urgency\": \"HIGH\",\n  \"sentiment\": \"NEUTRAL\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Facilities Management + Accessibility & Inclusion\",\n  \"escalation_reason\": \"Someone is currently unable to access a building due to a blocked accessible entrance.\",\n  \"data_sensitivity_risk\": \"LOW\",\n  \"needs_human_review\": \"N\",\n  \"brief_summary\": \"The wheelchair ramp at the library entrance is blocked by delivery pallets.\"\n}",
+    "parsed": {
+      "issue_category": "ACCESSIBILITY",
+      "urgency": "HIGH",
+      "sentiment": "NEUTRAL",
+      "followup_required": "Y",
+      "recommended_team": "Facilities Management + Accessibility & Inclusion",
+      "escalation_reason": "Someone is currently unable to access a building due to a blocked accessible entrance.",
+      "data_sensitivity_risk": "LOW",
+      "needs_human_review": "N",
+      "brief_summary": "The wheelchair ramp at the library entrance is blocked by delivery pallets."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T05:05:46.507878+00:00",
+    "test_id": "B2-informal",
+    "prompt_version": "v4",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"ACCESSIBILITY\",\n  \"urgency\": \"HIGH\",\n  \"sentiment\": \"NEGATIVE\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Facilities Management + Accessibility & Inclusion\",\n  \"escalation_reason\": \"Someone is currently unable to access a building due to a blocked accessible ramp.\",\n  \"data_sensitivity_risk\": \"LOW\",\n  \"needs_human_review\": \"N\",\n  \"brief_summary\": \"An employee cannot enter the library with their wheelchair because boxes are blocking the ramp.\"\n}",
+    "parsed": {
+      "issue_category": "ACCESSIBILITY",
+      "urgency": "HIGH",
+      "sentiment": "NEGATIVE",
+      "followup_required": "Y",
+      "recommended_team": "Facilities Management + Accessibility & Inclusion",
+      "escalation_reason": "Someone is currently unable to access a building due to a blocked accessible ramp.",
+      "data_sensitivity_risk": "LOW",
+      "needs_human_review": "N",
+      "brief_summary": "An employee cannot enter the library with their wheelchair because boxes are blocking the ramp."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T05:05:50.934871+00:00",
+    "test_id": "B3-formal",
+    "prompt_version": "v4",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"ENERGY_WASTE\",\n  \"urgency\": \"LOW\",\n  \"sentiment\": \"NEUTRAL\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Facilities Management\",\n  \"escalation_reason\": null,\n  \"data_sensitivity_risk\": \"LOW\",\n  \"needs_human_review\": \"N\",\n  \"brief_summary\": \"The lights on floor 4 remain on all weekend while the building is empty.\"\n}",
+    "parsed": {
+      "issue_category": "ENERGY_WASTE",
+      "urgency": "LOW",
+      "sentiment": "NEUTRAL",
+      "followup_required": "Y",
+      "recommended_team": "Facilities Management",
+      "escalation_reason": null,
+      "data_sensitivity_risk": "LOW",
+      "needs_human_review": "N",
+      "brief_summary": "The lights on floor 4 remain on all weekend while the building is empty."
+    },
+    "error": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T05:05:55.291610+00:00",
+    "test_id": "B3-informal",
+    "prompt_version": "v4",
+    "repeat": 0,
+    "model_requested": "gemini-3.5-flash-lite",
+    "model_version": "gemini-3.5-flash-lite",
+    "attempts": 1,
+    "raw_output": "{\n  \"issue_category\": \"ENERGY_WASTE\",\n  \"urgency\": \"MEDIUM\",\n  \"sentiment\": \"NEUTRAL\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Facilities Management\",\n  \"escalation_reason\": null,\n  \"data_sensitivity_risk\": \"LOW\",\n  \"needs_human_review\": \"N\",\n  \"brief_summary\": \"The lights on floor 4 were left on the entire weekend while nobody was there.\"\n}",
+    "parsed": {
+      "issue_category": "ENERGY_WASTE",
+      "urgency": "MEDIUM",
+      "sentiment": "NEUTRAL",
+      "followup_required": "Y",
+      "recommended_team": "Facilities Management",
+      "escalation_reason": null,
+      "data_sensitivity_risk": "LOW",
+      "needs_human_review": "N",
+      "brief_summary": "The lights on floor 4 were left on the entire weekend while nobody was there."
+    },
+    "error": null
+  }
+]

@@ -1,0 +1,16 @@
+prompt_version,set,n,category_acc_%,urgency_acc_%,under_triaged,over_triaged
+original,DEV,8,0.0,62.5,2,1
+original,HOLD,8,0.0,62.5,2,1
+original,NEW,3,0.0,100.0,0,0
+v1,DEV,8,87.5,100.0,0,0
+v1,HOLD,8,75.0,25.0,4,2
+v1,NEW,3,100.0,66.7,1,0
+v2,DEV,8,100.0,87.5,1,0
+v2,HOLD,8,100.0,50.0,3,1
+v2,NEW,3,100.0,33.3,2,0
+v3,DEV,8,100.0,100.0,0,0
+v3,HOLD,8,100.0,75.0,1,1
+v3,NEW,3,100.0,33.3,2,0
+v4,DEV,8,100.0,100.0,0,0
+v4,HOLD,8,100.0,62.5,1,2
+v4,NEW,3,100.0,33.3,2,0

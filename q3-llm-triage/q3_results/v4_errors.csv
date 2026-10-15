@@ -1,0 +1,6 @@
+test_id,set,message,expected_category,issue_category,expected_urgency,urgency,urgency_result,recommended_team
+HOLD-02,HOLD,The lights in Conference Room 4 were left on after everyone left for the night.,ENERGY_WASTE,ENERGY_WASTE,MEDIUM,LOW,under,Facilities Management
+HOLD-04,HOLD,"The step-free ramp at the west entrance is slippery after cleaning, although it is still open.",ACCESSIBILITY,ACCESSIBILITY,MEDIUM,HIGH,over,Facilities Management + Accessibility & Inclusion
+HOLD-08,HOLD,An employee's medical accommodation details were accidentally displayed on a public noticeboard. Please arrange their removal.,OTHER,OTHER,MEDIUM,HIGH,over,Privacy Officer
+NEW-01,NEW,I want to report that one of our suppliers may not meet our sustainability policy.,SUSTAINABLE_PROCUREMENT,SUSTAINABLE_PROCUREMENT,MEDIUM,LOW,under,Procurement & Supplier Sustainability
+NEW-02,NEW,The recycling bins are contaminated again and no one seems to be checking them.,WASTE_RECYCLING,WASTE_RECYCLING,MEDIUM,LOW,under,Facilities Management

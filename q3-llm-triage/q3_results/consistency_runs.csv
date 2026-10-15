@@ -1,0 +1,21 @@
+test_id,issue_category,urgency,recommended_team,needs_human_review,repeat
+ESG-06,OTHER,LOW,Service Desk,Y,0
+ESG-06,OTHER,LOW,Service Desk,Y,1
+ESG-06,OTHER,LOW,Service Desk,Y,2
+ESG-06,OTHER,LOW,Service Desk,Y,3
+HOLD-04,ACCESSIBILITY,HIGH,Facilities Management + Accessibility & Inclusion,N,0
+HOLD-04,ACCESSIBILITY,MEDIUM,Facilities Management + Accessibility & Inclusion,N,1
+HOLD-04,ACCESSIBILITY,MEDIUM,Facilities Management + Accessibility & Inclusion,N,2
+HOLD-04,ACCESSIBILITY,HIGH,Facilities Management + Accessibility & Inclusion,N,3
+HOLD-06,WATER_LEAK,CRITICAL,Facilities Management,N,0
+HOLD-06,WATER_LEAK,CRITICAL,Facilities Management,N,1
+HOLD-06,WATER_LEAK,CRITICAL,Facilities Management,N,2
+HOLD-06,WATER_LEAK,CRITICAL,Facilities Management,N,3
+HOLD-08,OTHER,HIGH,Privacy Officer,Y,0
+HOLD-08,OTHER,HIGH,Privacy Officer,Y,1
+HOLD-08,OTHER,HIGH,Privacy Officer,Y,2
+HOLD-08,OTHER,HIGH,Privacy Officer,Y,3
+NEW-03,OTHER,HIGH,"Governance, Risk & Compliance (confidential)",Y,0
+NEW-03,OTHER,HIGH,"Governance, Risk & Compliance (confidential)",Y,1
+NEW-03,OTHER,HIGH,"Governance, Risk & Compliance (confidential)",Y,2
+NEW-03,OTHER,HIGH,"Governance, Risk & Compliance (confidential)",Y,3

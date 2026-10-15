@@ -1,0 +1,10 @@
+approach,set,n,category_acc_%,urgency_acc_%,under_triaged,over_triaged
+Keyword rules,DEV,8,100.0,75.0,1,1
+Keyword rules,HOLD,8,50.0,25.0,6,0
+Keyword rules,NEW,3,66.7,33.3,2,0
+Zero-shot (bart-large-mnli),DEV,8,50.0,50.0,3,1
+Zero-shot (bart-large-mnli),HOLD,8,62.5,37.5,4,1
+Zero-shot (bart-large-mnli),NEW,3,100.0,66.7,1,0
+Gemini (prompt v4),DEV,8,100.0,100.0,0,0
+Gemini (prompt v4),HOLD,8,100.0,62.5,1,2
+Gemini (prompt v4),NEW,3,100.0,33.3,2,0

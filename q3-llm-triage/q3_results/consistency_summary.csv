@@ -1,0 +1,6 @@
+test_id,runs,category_values,urgency_values,team_values,identical_across_runs
+ESG-06,4,['OTHER'],['LOW'],['Service Desk'],True
+HOLD-04,4,['ACCESSIBILITY'],"['HIGH', 'MEDIUM']",['Facilities Management + Accessibility & Inclusion'],False
+HOLD-06,4,['WATER_LEAK'],['CRITICAL'],['Facilities Management'],True
+HOLD-08,4,['OTHER'],['HIGH'],['Privacy Officer'],True
+NEW-03,4,['OTHER'],['HIGH'],"['Governance, Risk & Compliance (confidential)']",True

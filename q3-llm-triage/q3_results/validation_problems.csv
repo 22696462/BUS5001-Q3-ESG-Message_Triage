@@ -1,0 +1,7 @@
+prompt_version,problem,count
+original,category not in allowed set,19
+original,"escalation_reason is the string ""None"" instead of null",1
+original,"returned a list, not one object",17
+v1,"escalation_reason is the string ""None"" instead of null",9
+v2,"escalation_reason is the string ""None"" instead of null",9
+v3,"escalation_reason is the string ""None"" instead of null",10

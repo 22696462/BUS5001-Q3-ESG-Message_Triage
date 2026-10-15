@@ -1,0 +1,4 @@
+approach,n,category_acc_%,urgency_acc_%,under_triaged,over_triaged
+Keyword rules,19,73.7,47.4,9,1
+Zero-shot (bart-large-mnli),19,63.2,47.4,8,2
+Gemini (prompt v4),19,100.0,73.7,3,2
