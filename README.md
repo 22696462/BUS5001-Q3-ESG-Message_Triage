@@ -32,3 +32,5 @@ A student prepares a governance-workshop briefing on Australian climate-related 
 
 ### Accuracy rule
 A claim is **supported** only if the cited passage states it. A claim that is plausible but not in the passage counts as **unsupported**.
+
+**Note:** `q3-llm-triage/BUS5001_Q3_ESG_LLM_Triage.ipynb` contains the cell outputs of the run used in the report (completed 15 Oct 2026, 05:06 UTC); its results are in `q3_results/`. The qualitative review files (`qualitative_review.csv`, `qualitative_summary.csv`) were coded afterwards from that same run's outputs.
